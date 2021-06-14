@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: BookstoreProject
+  commentId: N:BookstoreProject
+  id: BookstoreProject
+  children:
+  - BookstoreProject.ApplicationSignInManager
+  - BookstoreProject.ApplicationUserManager
+  - BookstoreProject.BundleConfig
+  - BookstoreProject.EmailService
+  - BookstoreProject.FilterConfig
+  - BookstoreProject.MvcApplication
+  - BookstoreProject.RouteConfig
+  - BookstoreProject.SmsService
+  - BookstoreProject.Startup
+  langs:
+  - csharp
+  - vb
+  name: BookstoreProject
+  nameWithType: BookstoreProject
+  fullName: BookstoreProject
+  type: Namespace
+  assemblies:
+  - BookstoreProject
+references:
+- uid: BookstoreProject.BundleConfig
+  commentId: T:BookstoreProject.BundleConfig
+  name: BundleConfig
+  nameWithType: BundleConfig
+  fullName: BookstoreProject.BundleConfig
+- uid: BookstoreProject.FilterConfig
+  commentId: T:BookstoreProject.FilterConfig
+  name: FilterConfig
+  nameWithType: FilterConfig
+  fullName: BookstoreProject.FilterConfig
+- uid: BookstoreProject.EmailService
+  commentId: T:BookstoreProject.EmailService
+  name: EmailService
+  nameWithType: EmailService
+  fullName: BookstoreProject.EmailService
+- uid: BookstoreProject.SmsService
+  commentId: T:BookstoreProject.SmsService
+  name: SmsService
+  nameWithType: SmsService
+  fullName: BookstoreProject.SmsService
+- uid: BookstoreProject.ApplicationUserManager
+  commentId: T:BookstoreProject.ApplicationUserManager
+  parent: BookstoreProject
+  name: ApplicationUserManager
+  nameWithType: ApplicationUserManager
+  fullName: BookstoreProject.ApplicationUserManager
+- uid: BookstoreProject.ApplicationSignInManager
+  commentId: T:BookstoreProject.ApplicationSignInManager
+  parent: BookstoreProject
+  name: ApplicationSignInManager
+  nameWithType: ApplicationSignInManager
+  fullName: BookstoreProject.ApplicationSignInManager
+- uid: BookstoreProject.RouteConfig
+  commentId: T:BookstoreProject.RouteConfig
+  name: RouteConfig
+  nameWithType: RouteConfig
+  fullName: BookstoreProject.RouteConfig
+- uid: BookstoreProject.Startup
+  commentId: T:BookstoreProject.Startup
+  name: Startup
+  nameWithType: Startup
+  fullName: BookstoreProject.Startup
+- uid: BookstoreProject.MvcApplication
+  commentId: T:BookstoreProject.MvcApplication
+  name: MvcApplication
+  nameWithType: MvcApplication
+  fullName: BookstoreProject.MvcApplication
+- uid: BookstoreProject
+  commentId: N:BookstoreProject
+  name: BookstoreProject
+  nameWithType: BookstoreProject
+  fullName: BookstoreProject

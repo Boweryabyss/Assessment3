@@ -1,0 +1,14 @@
+﻿.flex-test {
+    display:inline;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+    .flex-test > * {
+        flex: 0 1 10em;
+        margin-left: 5%;
+        margin-right: 5%;
+       
+    }
+
+

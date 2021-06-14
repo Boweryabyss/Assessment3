@@ -1,0 +1,468 @@
+### YamlMime:ManagedReference
+items:
+- uid: BookstoreProject.Models.VerifyPhoneNumberViewModel
+  commentId: T:BookstoreProject.Models.VerifyPhoneNumberViewModel
+  id: VerifyPhoneNumberViewModel
+  parent: BookstoreProject.Models
+  children:
+  - BookstoreProject.Models.VerifyPhoneNumberViewModel.Code
+  - BookstoreProject.Models.VerifyPhoneNumberViewModel.PhoneNumber
+  langs:
+  - csharp
+  - vb
+  name: VerifyPhoneNumberViewModel
+  nameWithType: VerifyPhoneNumberViewModel
+  fullName: BookstoreProject.Models.VerifyPhoneNumberViewModel
+  type: Class
+  source:
+    id: VerifyPhoneNumberViewModel
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\ManageViewModels.cs
+    startLine: 68
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public class VerifyPhoneNumberViewModel
+    content.vb: Public Class VerifyPhoneNumberViewModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BookstoreProject.Models.VerifyPhoneNumberViewModel.Code
+  commentId: P:BookstoreProject.Models.VerifyPhoneNumberViewModel.Code
+  id: Code
+  parent: BookstoreProject.Models.VerifyPhoneNumberViewModel
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: VerifyPhoneNumberViewModel.Code
+  fullName: BookstoreProject.Models.VerifyPhoneNumberViewModel.Code
+  type: Property
+  source:
+    id: Code
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\ManageViewModels.cs
+    startLine: 70
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: >-
+      [Required]
+
+      [Display(Name = "Code")]
+
+      public string Code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      <Display(Name:="Code")>
+
+      Public Property Code As String
+  overload: BookstoreProject.Models.VerifyPhoneNumberViewModel.Code*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.DisplayAttribute
+    ctor: System.ComponentModel.DataAnnotations.DisplayAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Code
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.VerifyPhoneNumberViewModel.PhoneNumber
+  commentId: P:BookstoreProject.Models.VerifyPhoneNumberViewModel.PhoneNumber
+  id: PhoneNumber
+  parent: BookstoreProject.Models.VerifyPhoneNumberViewModel
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: VerifyPhoneNumberViewModel.PhoneNumber
+  fullName: BookstoreProject.Models.VerifyPhoneNumberViewModel.PhoneNumber
+  type: Property
+  source:
+    id: PhoneNumber
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\ManageViewModels.cs
+    startLine: 74
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: >-
+      [Required]
+
+      [Phone]
+
+      [Display(Name = "Phone Number")]
+
+      public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      <Phone>
+
+      <Display(Name:="Phone Number")>
+
+      Public Property PhoneNumber As String
+  overload: BookstoreProject.Models.VerifyPhoneNumberViewModel.PhoneNumber*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.PhoneAttribute
+    ctor: System.ComponentModel.DataAnnotations.PhoneAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.DisplayAttribute
+    ctor: System.ComponentModel.DataAnnotations.DisplayAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: Phone Number
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BookstoreProject.Models
+  commentId: N:BookstoreProject.Models
+  name: BookstoreProject.Models
+  nameWithType: BookstoreProject.Models
+  fullName: BookstoreProject.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BookstoreProject.Models.VerifyPhoneNumberViewModel.Code*
+  commentId: Overload:BookstoreProject.Models.VerifyPhoneNumberViewModel.Code
+  name: Code
+  nameWithType: VerifyPhoneNumberViewModel.Code
+  fullName: BookstoreProject.Models.VerifyPhoneNumberViewModel.Code
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BookstoreProject.Models.VerifyPhoneNumberViewModel.PhoneNumber*
+  commentId: Overload:BookstoreProject.Models.VerifyPhoneNumberViewModel.PhoneNumber
+  name: PhoneNumber
+  nameWithType: VerifyPhoneNumberViewModel.PhoneNumber
+  fullName: BookstoreProject.Models.VerifyPhoneNumberViewModel.PhoneNumber

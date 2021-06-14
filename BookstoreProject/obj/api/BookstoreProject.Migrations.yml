@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: BookstoreProject.Migrations
+  commentId: N:BookstoreProject.Migrations
+  id: BookstoreProject.Migrations
+  children:
+  - BookstoreProject.Migrations.bookproperties
+  langs:
+  - csharp
+  - vb
+  name: BookstoreProject.Migrations
+  nameWithType: BookstoreProject.Migrations
+  fullName: BookstoreProject.Migrations
+  type: Namespace
+  assemblies:
+  - BookstoreProject
+references:
+- uid: BookstoreProject.Migrations.bookproperties
+  commentId: T:BookstoreProject.Migrations.bookproperties
+  name: bookproperties
+  nameWithType: bookproperties
+  fullName: BookstoreProject.Migrations.bookproperties

@@ -1,0 +1,710 @@
+### YamlMime:ManagedReference
+items:
+- uid: BookstoreProject.Models.Book
+  commentId: T:BookstoreProject.Models.Book
+  id: Book
+  parent: BookstoreProject.Models
+  children:
+  - BookstoreProject.Models.Book.Author
+  - BookstoreProject.Models.Book.ID
+  - BookstoreProject.Models.Book.Price
+  - BookstoreProject.Models.Book.ReleaseDate
+  - BookstoreProject.Models.Book.Title
+  langs:
+  - csharp
+  - vb
+  name: Book
+  nameWithType: Book
+  fullName: BookstoreProject.Models.Book
+  type: Class
+  source:
+    id: Book
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
+    startLine: 14
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  summary: "\nThe Book model\nContains get and set methods for each member variable\n"
+  example: []
+  syntax:
+    content: public class Book
+    content.vb: Public Class Book
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BookstoreProject.Models.Book.ID
+  commentId: P:BookstoreProject.Models.Book.ID
+  id: ID
+  parent: BookstoreProject.Models.Book
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: Book.ID
+  fullName: BookstoreProject.Models.Book.ID
+  type: Property
+  source:
+    id: ID
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
+    startLine: 16
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public int ID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ID As Integer
+  overload: BookstoreProject.Models.Book.ID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.Book.Title
+  commentId: P:BookstoreProject.Models.Book.Title
+  id: Title
+  parent: BookstoreProject.Models.Book
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Book.Title
+  fullName: BookstoreProject.Models.Book.Title
+  type: Property
+  source:
+    id: Title
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
+    startLine: 17
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: >-
+      [StringLength(154)]
+
+      [Required]
+
+      public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(154)>
+
+      <Required>
+
+      Public Property Title As String
+  overload: BookstoreProject.Models.Book.Title*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 154
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.Book.Author
+  commentId: P:BookstoreProject.Models.Book.Author
+  id: Author
+  parent: BookstoreProject.Models.Book
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: Book.Author
+  fullName: BookstoreProject.Models.Book.Author
+  type: Property
+  source:
+    id: Author
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
+    startLine: 20
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: >-
+      [StringLength(154)]
+
+      [Required]
+
+      public string Author { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(154)>
+
+      <Required>
+
+      Public Property Author As String
+  overload: BookstoreProject.Models.Book.Author*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 154
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.Book.Price
+  commentId: P:BookstoreProject.Models.Book.Price
+  id: Price
+  parent: BookstoreProject.Models.Book
+  langs:
+  - csharp
+  - vb
+  name: Price
+  nameWithType: Book.Price
+  fullName: BookstoreProject.Models.Book.Price
+  type: Property
+  source:
+    id: Price
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
+    startLine: 23
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: >-
+      [Required]
+
+      public double Price { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      Public Property Price As Double
+  overload: BookstoreProject.Models.Book.Price*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.Book.ReleaseDate
+  commentId: P:BookstoreProject.Models.Book.ReleaseDate
+  id: ReleaseDate
+  parent: BookstoreProject.Models.Book
+  langs:
+  - csharp
+  - vb
+  name: ReleaseDate
+  nameWithType: Book.ReleaseDate
+  fullName: BookstoreProject.Models.Book.ReleaseDate
+  type: Property
+  source:
+    id: ReleaseDate
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
+    startLine: 25
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: >-
+      [Required]
+
+      [DataType(DataType.Date)]
+
+      [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+
+      public DateTime? ReleaseDate { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: >-
+      <Required>
+
+      <DataType(DataType.Date)>
+
+      <DisplayFormat(DataFormatString:="{0:dd/MM/yyyy}", ApplyFormatInEditMode:=True)>
+
+      Public Property ReleaseDate As Date?
+  overload: BookstoreProject.Models.Book.ReleaseDate*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.DataTypeAttribute
+    ctor: System.ComponentModel.DataAnnotations.DataTypeAttribute.#ctor(System.ComponentModel.DataAnnotations.DataType)
+    arguments:
+    - type: System.ComponentModel.DataAnnotations.DataType
+      value: 2
+  - type: System.ComponentModel.DataAnnotations.DisplayFormatAttribute
+    ctor: System.ComponentModel.DataAnnotations.DisplayFormatAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: DataFormatString
+      type: System.String
+      value: '{0:dd/MM/yyyy}'
+    - name: ApplyFormatInEditMode
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BookstoreProject.Models
+  commentId: N:BookstoreProject.Models
+  name: BookstoreProject.Models
+  nameWithType: BookstoreProject.Models
+  fullName: BookstoreProject.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BookstoreProject.Models.Book.ID*
+  commentId: Overload:BookstoreProject.Models.Book.ID
+  name: ID
+  nameWithType: Book.ID
+  fullName: BookstoreProject.Models.Book.ID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BookstoreProject.Models.Book.Title*
+  commentId: Overload:BookstoreProject.Models.Book.Title
+  name: Title
+  nameWithType: Book.Title
+  fullName: BookstoreProject.Models.Book.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BookstoreProject.Models.Book.Author*
+  commentId: Overload:BookstoreProject.Models.Book.Author
+  name: Author
+  nameWithType: Book.Author
+  fullName: BookstoreProject.Models.Book.Author
+- uid: BookstoreProject.Models.Book.Price*
+  commentId: Overload:BookstoreProject.Models.Book.Price
+  name: Price
+  nameWithType: Book.Price
+  fullName: BookstoreProject.Models.Book.Price
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: BookstoreProject.Models.Book.ReleaseDate*
+  commentId: Overload:BookstoreProject.Models.Book.ReleaseDate
+  name: ReleaseDate
+  nameWithType: Book.ReleaseDate
+  fullName: BookstoreProject.Models.Book.ReleaseDate
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

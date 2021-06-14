@@ -1,0 +1,2104 @@
+### YamlMime:ManagedReference
+items:
+- uid: BookstoreProject.ApplicationSignInManager
+  commentId: T:BookstoreProject.ApplicationSignInManager
+  id: ApplicationSignInManager
+  parent: BookstoreProject
+  children:
+  - BookstoreProject.ApplicationSignInManager.#ctor(BookstoreProject.ApplicationUserManager,Microsoft.Owin.Security.IAuthenticationManager)
+  - BookstoreProject.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{BookstoreProject.ApplicationSignInManager},Microsoft.Owin.IOwinContext)
+  - BookstoreProject.ApplicationSignInManager.CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  langs:
+  - csharp
+  - vb
+  name: ApplicationSignInManager
+  nameWithType: ApplicationSignInManager
+  fullName: BookstoreProject.ApplicationSignInManager
+  type: Class
+  source:
+    id: ApplicationSignInManager
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\App_Start\IdentityConfig.cs
+    startLine: 91
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject
+  syntax:
+    content: 'public class ApplicationSignInManager : SignInManager<ApplicationUser, string>, IDisposable'
+    content.vb: >-
+      Public Class ApplicationSignInManager
+          Inherits SignInManager(Of ApplicationUser, String)
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.ConvertIdToString(System.String)
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.ConvertIdFromString(System.String)
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.SignInAsync(BookstoreProject.Models.ApplicationUser,System.Boolean,System.Boolean)
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.SendTwoFactorCodeAsync(System.String)
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.GetVerifiedUserIdAsync
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.HasBeenVerifiedAsync
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.TwoFactorSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo,System.Boolean)
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.Dispose
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.Dispose(System.Boolean)
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.AuthenticationType
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.UserManager
+  - Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.AuthenticationManager
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BookstoreProject.ApplicationSignInManager.#ctor(BookstoreProject.ApplicationUserManager,Microsoft.Owin.Security.IAuthenticationManager)
+  commentId: M:BookstoreProject.ApplicationSignInManager.#ctor(BookstoreProject.ApplicationUserManager,Microsoft.Owin.Security.IAuthenticationManager)
+  id: '#ctor(BookstoreProject.ApplicationUserManager,Microsoft.Owin.Security.IAuthenticationManager)'
+  parent: BookstoreProject.ApplicationSignInManager
+  langs:
+  - csharp
+  - vb
+  name: ApplicationSignInManager(ApplicationUserManager, IAuthenticationManager)
+  nameWithType: ApplicationSignInManager.ApplicationSignInManager(ApplicationUserManager, IAuthenticationManager)
+  fullName: BookstoreProject.ApplicationSignInManager.ApplicationSignInManager(BookstoreProject.ApplicationUserManager, Microsoft.Owin.Security.IAuthenticationManager)
+  type: Constructor
+  source:
+    id: .ctor
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\App_Start\IdentityConfig.cs
+    startLine: 93
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject
+  syntax:
+    content: public ApplicationSignInManager(ApplicationUserManager userManager, IAuthenticationManager authenticationManager)
+    parameters:
+    - id: userManager
+      type: BookstoreProject.ApplicationUserManager
+    - id: authenticationManager
+      type: Microsoft.Owin.Security.IAuthenticationManager
+    content.vb: Public Sub New(userManager As ApplicationUserManager, authenticationManager As IAuthenticationManager)
+  overload: BookstoreProject.ApplicationSignInManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.ApplicationSignInManager.CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  commentId: M:BookstoreProject.ApplicationSignInManager.CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  id: CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  parent: BookstoreProject.ApplicationSignInManager
+  langs:
+  - csharp
+  - vb
+  name: CreateUserIdentityAsync(ApplicationUser)
+  nameWithType: ApplicationSignInManager.CreateUserIdentityAsync(ApplicationUser)
+  fullName: BookstoreProject.ApplicationSignInManager.CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  type: Method
+  source:
+    id: CreateUserIdentityAsync
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\App_Start\IdentityConfig.cs
+    startLine: 98
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject
+  syntax:
+    content: public override Task<ClaimsIdentity> CreateUserIdentityAsync(ApplicationUser user)
+    parameters:
+    - id: user
+      type: BookstoreProject.Models.ApplicationUser
+    return:
+      type: System.Threading.Tasks.Task{System.Security.Claims.ClaimsIdentity}
+    content.vb: Public Overrides Function CreateUserIdentityAsync(user As ApplicationUser) As Task(Of ClaimsIdentity)
+  overridden: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  overload: BookstoreProject.ApplicationSignInManager.CreateUserIdentityAsync*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BookstoreProject.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{BookstoreProject.ApplicationSignInManager},Microsoft.Owin.IOwinContext)
+  commentId: M:BookstoreProject.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{BookstoreProject.ApplicationSignInManager},Microsoft.Owin.IOwinContext)
+  id: Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{BookstoreProject.ApplicationSignInManager},Microsoft.Owin.IOwinContext)
+  parent: BookstoreProject.ApplicationSignInManager
+  langs:
+  - csharp
+  - vb
+  name: Create(IdentityFactoryOptions<ApplicationSignInManager>, IOwinContext)
+  nameWithType: ApplicationSignInManager.Create(IdentityFactoryOptions<ApplicationSignInManager>, IOwinContext)
+  fullName: BookstoreProject.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions<BookstoreProject.ApplicationSignInManager>, Microsoft.Owin.IOwinContext)
+  type: Method
+  source:
+    id: Create
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\App_Start\IdentityConfig.cs
+    startLine: 103
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject
+  syntax:
+    content: public static ApplicationSignInManager Create(IdentityFactoryOptions<ApplicationSignInManager> options, IOwinContext context)
+    parameters:
+    - id: options
+      type: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{BookstoreProject.ApplicationSignInManager}
+    - id: context
+      type: Microsoft.Owin.IOwinContext
+    return:
+      type: BookstoreProject.ApplicationSignInManager
+    content.vb: Public Shared Function Create(options As IdentityFactoryOptions(Of ApplicationSignInManager), context As IOwinContext) As ApplicationSignInManager
+  overload: BookstoreProject.ApplicationSignInManager.Create*
+  nameWithType.vb: ApplicationSignInManager.Create(IdentityFactoryOptions(Of ApplicationSignInManager), IOwinContext)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BookstoreProject.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions(Of BookstoreProject.ApplicationSignInManager), Microsoft.Owin.IOwinContext)
+  name.vb: Create(IdentityFactoryOptions(Of ApplicationSignInManager), IOwinContext)
+references:
+- uid: BookstoreProject
+  commentId: N:BookstoreProject
+  name: BookstoreProject
+  nameWithType: BookstoreProject
+  fullName: BookstoreProject
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  commentId: T:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  parent: Microsoft.AspNet.Identity.Owin
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2
+  name: SignInManager<ApplicationUser, String>
+  nameWithType: SignInManager<ApplicationUser, String>
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>
+  nameWithType.vb: SignInManager(Of ApplicationUser, String)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String)
+  name.vb: SignInManager(Of ApplicationUser, String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BookstoreProject.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: BookstoreProject.Models.ApplicationUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BookstoreProject.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: BookstoreProject.Models.ApplicationUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.CreateUserIdentityAsync(`0)
+  name: CreateUserIdentityAsync(ApplicationUser)
+  nameWithType: SignInManager<ApplicationUser, String>.CreateUserIdentityAsync(ApplicationUser)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).CreateUserIdentityAsync(ApplicationUser)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).CreateUserIdentityAsync(BookstoreProject.Models.ApplicationUser)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.CreateUserIdentityAsync(`0)
+    name: CreateUserIdentityAsync
+    nameWithType: SignInManager<ApplicationUser, String>.CreateUserIdentityAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.CreateUserIdentityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BookstoreProject.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: BookstoreProject.Models.ApplicationUser
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.CreateUserIdentityAsync(`0)
+    name: CreateUserIdentityAsync
+    nameWithType: SignInManager(Of ApplicationUser, String).CreateUserIdentityAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).CreateUserIdentityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BookstoreProject.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: BookstoreProject.Models.ApplicationUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.ConvertIdToString(System.String)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.ConvertIdToString(System.String)
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdToString(`1)
+  name: ConvertIdToString(String)
+  nameWithType: SignInManager<ApplicationUser, String>.ConvertIdToString(String)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.ConvertIdToString(System.String)
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).ConvertIdToString(String)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).ConvertIdToString(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdToString(`1)
+    name: ConvertIdToString
+    nameWithType: SignInManager<ApplicationUser, String>.ConvertIdToString
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.ConvertIdToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdToString(`1)
+    name: ConvertIdToString
+    nameWithType: SignInManager(Of ApplicationUser, String).ConvertIdToString
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).ConvertIdToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.ConvertIdFromString(System.String)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.ConvertIdFromString(System.String)
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdFromString(System.String)
+  name: ConvertIdFromString(String)
+  nameWithType: SignInManager<ApplicationUser, String>.ConvertIdFromString(String)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.ConvertIdFromString(System.String)
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).ConvertIdFromString(String)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).ConvertIdFromString(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdFromString(System.String)
+    name: ConvertIdFromString
+    nameWithType: SignInManager<ApplicationUser, String>.ConvertIdFromString
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.ConvertIdFromString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdFromString(System.String)
+    name: ConvertIdFromString
+    nameWithType: SignInManager(Of ApplicationUser, String).ConvertIdFromString
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).ConvertIdFromString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.SignInAsync(BookstoreProject.Models.ApplicationUser,System.Boolean,System.Boolean)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.SignInAsync(BookstoreProject.Models.ApplicationUser,System.Boolean,System.Boolean)
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.SignInAsync(`0,System.Boolean,System.Boolean)
+  name: SignInAsync(ApplicationUser, Boolean, Boolean)
+  nameWithType: SignInManager<ApplicationUser, String>.SignInAsync(ApplicationUser, Boolean, Boolean)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.SignInAsync(BookstoreProject.Models.ApplicationUser, System.Boolean, System.Boolean)
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).SignInAsync(ApplicationUser, Boolean, Boolean)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).SignInAsync(BookstoreProject.Models.ApplicationUser, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.SignInAsync(`0,System.Boolean,System.Boolean)
+    name: SignInAsync
+    nameWithType: SignInManager<ApplicationUser, String>.SignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.SignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BookstoreProject.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: BookstoreProject.Models.ApplicationUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.SignInAsync(`0,System.Boolean,System.Boolean)
+    name: SignInAsync
+    nameWithType: SignInManager(Of ApplicationUser, String).SignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).SignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BookstoreProject.Models.ApplicationUser
+    name: ApplicationUser
+    nameWithType: ApplicationUser
+    fullName: BookstoreProject.Models.ApplicationUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.SendTwoFactorCodeAsync(System.String)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.SendTwoFactorCodeAsync(System.String)
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.SendTwoFactorCodeAsync(System.String)
+  name: SendTwoFactorCodeAsync(String)
+  nameWithType: SignInManager<ApplicationUser, String>.SendTwoFactorCodeAsync(String)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.SendTwoFactorCodeAsync(System.String)
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).SendTwoFactorCodeAsync(String)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).SendTwoFactorCodeAsync(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.SendTwoFactorCodeAsync(System.String)
+    name: SendTwoFactorCodeAsync
+    nameWithType: SignInManager<ApplicationUser, String>.SendTwoFactorCodeAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.SendTwoFactorCodeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.SendTwoFactorCodeAsync(System.String)
+    name: SendTwoFactorCodeAsync
+    nameWithType: SignInManager(Of ApplicationUser, String).SendTwoFactorCodeAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).SendTwoFactorCodeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.GetVerifiedUserIdAsync
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.GetVerifiedUserIdAsync
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.GetVerifiedUserIdAsync
+  name: GetVerifiedUserIdAsync()
+  nameWithType: SignInManager<ApplicationUser, String>.GetVerifiedUserIdAsync()
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.GetVerifiedUserIdAsync()
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).GetVerifiedUserIdAsync()
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).GetVerifiedUserIdAsync()
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.GetVerifiedUserIdAsync
+    name: GetVerifiedUserIdAsync
+    nameWithType: SignInManager<ApplicationUser, String>.GetVerifiedUserIdAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.GetVerifiedUserIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.GetVerifiedUserIdAsync
+    name: GetVerifiedUserIdAsync
+    nameWithType: SignInManager(Of ApplicationUser, String).GetVerifiedUserIdAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).GetVerifiedUserIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.HasBeenVerifiedAsync
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.HasBeenVerifiedAsync
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.HasBeenVerifiedAsync
+  name: HasBeenVerifiedAsync()
+  nameWithType: SignInManager<ApplicationUser, String>.HasBeenVerifiedAsync()
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.HasBeenVerifiedAsync()
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).HasBeenVerifiedAsync()
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).HasBeenVerifiedAsync()
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.HasBeenVerifiedAsync
+    name: HasBeenVerifiedAsync
+    nameWithType: SignInManager<ApplicationUser, String>.HasBeenVerifiedAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.HasBeenVerifiedAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.HasBeenVerifiedAsync
+    name: HasBeenVerifiedAsync
+    nameWithType: SignInManager(Of ApplicationUser, String).HasBeenVerifiedAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).HasBeenVerifiedAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.TwoFactorSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.TwoFactorSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.TwoFactorSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  name: TwoFactorSignInAsync(String, String, Boolean, Boolean)
+  nameWithType: SignInManager<ApplicationUser, String>.TwoFactorSignInAsync(String, String, Boolean, Boolean)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.TwoFactorSignInAsync(System.String, System.String, System.Boolean, System.Boolean)
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).TwoFactorSignInAsync(String, String, Boolean, Boolean)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).TwoFactorSignInAsync(System.String, System.String, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.TwoFactorSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+    name: TwoFactorSignInAsync
+    nameWithType: SignInManager<ApplicationUser, String>.TwoFactorSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.TwoFactorSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.TwoFactorSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+    name: TwoFactorSignInAsync
+    nameWithType: SignInManager(Of ApplicationUser, String).TwoFactorSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).TwoFactorSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo,System.Boolean)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo,System.Boolean)
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo,System.Boolean)
+  name: ExternalSignInAsync(ExternalLoginInfo, Boolean)
+  nameWithType: SignInManager<ApplicationUser, String>.ExternalSignInAsync(ExternalLoginInfo, Boolean)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo, System.Boolean)
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).ExternalSignInAsync(ExternalLoginInfo, Boolean)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo,System.Boolean)
+    name: ExternalSignInAsync
+    nameWithType: SignInManager<ApplicationUser, String>.ExternalSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.ExternalSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNet.Identity.Owin.ExternalLoginInfo
+    name: ExternalLoginInfo
+    nameWithType: ExternalLoginInfo
+    fullName: Microsoft.AspNet.Identity.Owin.ExternalLoginInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo,System.Boolean)
+    name: ExternalSignInAsync
+    nameWithType: SignInManager(Of ApplicationUser, String).ExternalSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).ExternalSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNet.Identity.Owin.ExternalLoginInfo
+    name: ExternalLoginInfo
+    nameWithType: ExternalLoginInfo
+    fullName: Microsoft.AspNet.Identity.Owin.ExternalLoginInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  name: PasswordSignInAsync(String, String, Boolean, Boolean)
+  nameWithType: SignInManager<ApplicationUser, String>.PasswordSignInAsync(String, String, Boolean, Boolean)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.PasswordSignInAsync(System.String, System.String, System.Boolean, System.Boolean)
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).PasswordSignInAsync(String, String, Boolean, Boolean)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).PasswordSignInAsync(System.String, System.String, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+    name: PasswordSignInAsync
+    nameWithType: SignInManager<ApplicationUser, String>.PasswordSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.PasswordSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+    name: PasswordSignInAsync
+    nameWithType: SignInManager(Of ApplicationUser, String).PasswordSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).PasswordSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.Dispose
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.Dispose
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose
+  name: Dispose()
+  nameWithType: SignInManager<ApplicationUser, String>.Dispose()
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.Dispose()
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).Dispose()
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).Dispose()
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose
+    name: Dispose
+    nameWithType: SignInManager<ApplicationUser, String>.Dispose
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose
+    name: Dispose
+    nameWithType: SignInManager(Of ApplicationUser, String).Dispose
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.Dispose(System.Boolean)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.Dispose(System.Boolean)
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  nameWithType: SignInManager<ApplicationUser, String>.Dispose(Boolean)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.Dispose(System.Boolean)
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).Dispose(Boolean)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: SignInManager<ApplicationUser, String>.Dispose
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: SignInManager(Of ApplicationUser, String).Dispose
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.AuthenticationType
+  commentId: P:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.AuthenticationType
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.AuthenticationType
+  name: AuthenticationType
+  nameWithType: SignInManager<ApplicationUser, String>.AuthenticationType
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.AuthenticationType
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).AuthenticationType
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).AuthenticationType
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.UserManager
+  commentId: P:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.UserManager
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.UserManager
+  name: UserManager
+  nameWithType: SignInManager<ApplicationUser, String>.UserManager
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.UserManager
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).UserManager
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).UserManager
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.AuthenticationManager
+  commentId: P:Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}.AuthenticationManager
+  parent: Microsoft.AspNet.Identity.Owin.SignInManager{BookstoreProject.Models.ApplicationUser,System.String}
+  definition: Microsoft.AspNet.Identity.Owin.SignInManager`2.AuthenticationManager
+  name: AuthenticationManager
+  nameWithType: SignInManager<ApplicationUser, String>.AuthenticationManager
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<BookstoreProject.Models.ApplicationUser, System.String>.AuthenticationManager
+  nameWithType.vb: SignInManager(Of ApplicationUser, String).AuthenticationManager
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of BookstoreProject.Models.ApplicationUser, System.String).AuthenticationManager
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2
+  commentId: T:Microsoft.AspNet.Identity.Owin.SignInManager`2
+  isExternal: true
+  name: SignInManager<TUser, TKey>
+  nameWithType: SignInManager<TUser, TKey>
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>
+  nameWithType.vb: SignInManager(Of TUser, TKey)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey)
+  name.vb: SignInManager(Of TUser, TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2
+    name: SignInManager
+    nameWithType: SignInManager
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin
+  commentId: N:Microsoft.AspNet.Identity.Owin
+  isExternal: true
+  name: Microsoft.AspNet.Identity.Owin
+  nameWithType: Microsoft.AspNet.Identity.Owin
+  fullName: Microsoft.AspNet.Identity.Owin
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.CreateUserIdentityAsync(`0)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.CreateUserIdentityAsync(`0)
+  isExternal: true
+  name: CreateUserIdentityAsync(TUser)
+  nameWithType: SignInManager<TUser, TKey>.CreateUserIdentityAsync(TUser)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.CreateUserIdentityAsync(TUser)
+  nameWithType.vb: SignInManager(Of TUser, TKey).CreateUserIdentityAsync(TUser)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).CreateUserIdentityAsync(TUser)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.CreateUserIdentityAsync(`0)
+    name: CreateUserIdentityAsync
+    nameWithType: SignInManager<TUser, TKey>.CreateUserIdentityAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.CreateUserIdentityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.CreateUserIdentityAsync(`0)
+    name: CreateUserIdentityAsync
+    nameWithType: SignInManager(Of TUser, TKey).CreateUserIdentityAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).CreateUserIdentityAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdToString(`1)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdToString(`1)
+  isExternal: true
+  name: ConvertIdToString(TKey)
+  nameWithType: SignInManager<TUser, TKey>.ConvertIdToString(TKey)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.ConvertIdToString(TKey)
+  nameWithType.vb: SignInManager(Of TUser, TKey).ConvertIdToString(TKey)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).ConvertIdToString(TKey)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdToString(`1)
+    name: ConvertIdToString
+    nameWithType: SignInManager<TUser, TKey>.ConvertIdToString
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.ConvertIdToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdToString(`1)
+    name: ConvertIdToString
+    nameWithType: SignInManager(Of TUser, TKey).ConvertIdToString
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).ConvertIdToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdFromString(System.String)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdFromString(System.String)
+  isExternal: true
+  name: ConvertIdFromString(String)
+  nameWithType: SignInManager<TUser, TKey>.ConvertIdFromString(String)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.ConvertIdFromString(System.String)
+  nameWithType.vb: SignInManager(Of TUser, TKey).ConvertIdFromString(String)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).ConvertIdFromString(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdFromString(System.String)
+    name: ConvertIdFromString
+    nameWithType: SignInManager<TUser, TKey>.ConvertIdFromString
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.ConvertIdFromString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ConvertIdFromString(System.String)
+    name: ConvertIdFromString
+    nameWithType: SignInManager(Of TUser, TKey).ConvertIdFromString
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).ConvertIdFromString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.SignInAsync(`0,System.Boolean,System.Boolean)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.SignInAsync(`0,System.Boolean,System.Boolean)
+  isExternal: true
+  name: SignInAsync(TUser, Boolean, Boolean)
+  nameWithType: SignInManager<TUser, TKey>.SignInAsync(TUser, Boolean, Boolean)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.SignInAsync(TUser, System.Boolean, System.Boolean)
+  nameWithType.vb: SignInManager(Of TUser, TKey).SignInAsync(TUser, Boolean, Boolean)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).SignInAsync(TUser, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.SignInAsync(`0,System.Boolean,System.Boolean)
+    name: SignInAsync
+    nameWithType: SignInManager<TUser, TKey>.SignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.SignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.SignInAsync(`0,System.Boolean,System.Boolean)
+    name: SignInAsync
+    nameWithType: SignInManager(Of TUser, TKey).SignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).SignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TUser
+    nameWithType: TUser
+    fullName: TUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.SendTwoFactorCodeAsync(System.String)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.SendTwoFactorCodeAsync(System.String)
+  isExternal: true
+  name: SendTwoFactorCodeAsync(String)
+  nameWithType: SignInManager<TUser, TKey>.SendTwoFactorCodeAsync(String)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.SendTwoFactorCodeAsync(System.String)
+  nameWithType.vb: SignInManager(Of TUser, TKey).SendTwoFactorCodeAsync(String)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).SendTwoFactorCodeAsync(System.String)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.SendTwoFactorCodeAsync(System.String)
+    name: SendTwoFactorCodeAsync
+    nameWithType: SignInManager<TUser, TKey>.SendTwoFactorCodeAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.SendTwoFactorCodeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.SendTwoFactorCodeAsync(System.String)
+    name: SendTwoFactorCodeAsync
+    nameWithType: SignInManager(Of TUser, TKey).SendTwoFactorCodeAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).SendTwoFactorCodeAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.GetVerifiedUserIdAsync
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.GetVerifiedUserIdAsync
+  isExternal: true
+  name: GetVerifiedUserIdAsync()
+  nameWithType: SignInManager<TUser, TKey>.GetVerifiedUserIdAsync()
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.GetVerifiedUserIdAsync()
+  nameWithType.vb: SignInManager(Of TUser, TKey).GetVerifiedUserIdAsync()
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).GetVerifiedUserIdAsync()
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.GetVerifiedUserIdAsync
+    name: GetVerifiedUserIdAsync
+    nameWithType: SignInManager<TUser, TKey>.GetVerifiedUserIdAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.GetVerifiedUserIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.GetVerifiedUserIdAsync
+    name: GetVerifiedUserIdAsync
+    nameWithType: SignInManager(Of TUser, TKey).GetVerifiedUserIdAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).GetVerifiedUserIdAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.HasBeenVerifiedAsync
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.HasBeenVerifiedAsync
+  isExternal: true
+  name: HasBeenVerifiedAsync()
+  nameWithType: SignInManager<TUser, TKey>.HasBeenVerifiedAsync()
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.HasBeenVerifiedAsync()
+  nameWithType.vb: SignInManager(Of TUser, TKey).HasBeenVerifiedAsync()
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).HasBeenVerifiedAsync()
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.HasBeenVerifiedAsync
+    name: HasBeenVerifiedAsync
+    nameWithType: SignInManager<TUser, TKey>.HasBeenVerifiedAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.HasBeenVerifiedAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.HasBeenVerifiedAsync
+    name: HasBeenVerifiedAsync
+    nameWithType: SignInManager(Of TUser, TKey).HasBeenVerifiedAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).HasBeenVerifiedAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.TwoFactorSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.TwoFactorSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  isExternal: true
+  name: TwoFactorSignInAsync(String, String, Boolean, Boolean)
+  nameWithType: SignInManager<TUser, TKey>.TwoFactorSignInAsync(String, String, Boolean, Boolean)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.TwoFactorSignInAsync(System.String, System.String, System.Boolean, System.Boolean)
+  nameWithType.vb: SignInManager(Of TUser, TKey).TwoFactorSignInAsync(String, String, Boolean, Boolean)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).TwoFactorSignInAsync(System.String, System.String, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.TwoFactorSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+    name: TwoFactorSignInAsync
+    nameWithType: SignInManager<TUser, TKey>.TwoFactorSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.TwoFactorSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.TwoFactorSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+    name: TwoFactorSignInAsync
+    nameWithType: SignInManager(Of TUser, TKey).TwoFactorSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).TwoFactorSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo,System.Boolean)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo,System.Boolean)
+  isExternal: true
+  name: ExternalSignInAsync(ExternalLoginInfo, Boolean)
+  nameWithType: SignInManager<TUser, TKey>.ExternalSignInAsync(ExternalLoginInfo, Boolean)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo, System.Boolean)
+  nameWithType.vb: SignInManager(Of TUser, TKey).ExternalSignInAsync(ExternalLoginInfo, Boolean)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo,System.Boolean)
+    name: ExternalSignInAsync
+    nameWithType: SignInManager<TUser, TKey>.ExternalSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.ExternalSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNet.Identity.Owin.ExternalLoginInfo
+    name: ExternalLoginInfo
+    nameWithType: ExternalLoginInfo
+    fullName: Microsoft.AspNet.Identity.Owin.ExternalLoginInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.ExternalSignInAsync(Microsoft.AspNet.Identity.Owin.ExternalLoginInfo,System.Boolean)
+    name: ExternalSignInAsync
+    nameWithType: SignInManager(Of TUser, TKey).ExternalSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).ExternalSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNet.Identity.Owin.ExternalLoginInfo
+    name: ExternalLoginInfo
+    nameWithType: ExternalLoginInfo
+    fullName: Microsoft.AspNet.Identity.Owin.ExternalLoginInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+  isExternal: true
+  name: PasswordSignInAsync(String, String, Boolean, Boolean)
+  nameWithType: SignInManager<TUser, TKey>.PasswordSignInAsync(String, String, Boolean, Boolean)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.PasswordSignInAsync(System.String, System.String, System.Boolean, System.Boolean)
+  nameWithType.vb: SignInManager(Of TUser, TKey).PasswordSignInAsync(String, String, Boolean, Boolean)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).PasswordSignInAsync(System.String, System.String, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+    name: PasswordSignInAsync
+    nameWithType: SignInManager<TUser, TKey>.PasswordSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.PasswordSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.PasswordSignInAsync(System.String,System.String,System.Boolean,System.Boolean)
+    name: PasswordSignInAsync
+    nameWithType: SignInManager(Of TUser, TKey).PasswordSignInAsync
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).PasswordSignInAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: SignInManager<TUser, TKey>.Dispose()
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.Dispose()
+  nameWithType.vb: SignInManager(Of TUser, TKey).Dispose()
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).Dispose()
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose
+    name: Dispose
+    nameWithType: SignInManager<TUser, TKey>.Dispose
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose
+    name: Dispose
+    nameWithType: SignInManager(Of TUser, TKey).Dispose
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose(System.Boolean)
+  commentId: M:Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose(System.Boolean)
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: SignInManager<TUser, TKey>.Dispose(Boolean)
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.Dispose(System.Boolean)
+  nameWithType.vb: SignInManager(Of TUser, TKey).Dispose(Boolean)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: SignInManager<TUser, TKey>.Dispose
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: SignInManager(Of TUser, TKey).Dispose
+    fullName: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.AuthenticationType
+  commentId: P:Microsoft.AspNet.Identity.Owin.SignInManager`2.AuthenticationType
+  isExternal: true
+  name: AuthenticationType
+  nameWithType: SignInManager<TUser, TKey>.AuthenticationType
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.AuthenticationType
+  nameWithType.vb: SignInManager(Of TUser, TKey).AuthenticationType
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).AuthenticationType
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.UserManager
+  commentId: P:Microsoft.AspNet.Identity.Owin.SignInManager`2.UserManager
+  isExternal: true
+  name: UserManager
+  nameWithType: SignInManager<TUser, TKey>.UserManager
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.UserManager
+  nameWithType.vb: SignInManager(Of TUser, TKey).UserManager
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).UserManager
+- uid: Microsoft.AspNet.Identity.Owin.SignInManager`2.AuthenticationManager
+  commentId: P:Microsoft.AspNet.Identity.Owin.SignInManager`2.AuthenticationManager
+  isExternal: true
+  name: AuthenticationManager
+  nameWithType: SignInManager<TUser, TKey>.AuthenticationManager
+  fullName: Microsoft.AspNet.Identity.Owin.SignInManager<TUser, TKey>.AuthenticationManager
+  nameWithType.vb: SignInManager(Of TUser, TKey).AuthenticationManager
+  fullName.vb: Microsoft.AspNet.Identity.Owin.SignInManager(Of TUser, TKey).AuthenticationManager
+- uid: BookstoreProject.ApplicationSignInManager.#ctor*
+  commentId: Overload:BookstoreProject.ApplicationSignInManager.#ctor
+  name: ApplicationSignInManager
+  nameWithType: ApplicationSignInManager.ApplicationSignInManager
+  fullName: BookstoreProject.ApplicationSignInManager.ApplicationSignInManager
+- uid: BookstoreProject.ApplicationUserManager
+  commentId: T:BookstoreProject.ApplicationUserManager
+  parent: BookstoreProject
+  name: ApplicationUserManager
+  nameWithType: ApplicationUserManager
+  fullName: BookstoreProject.ApplicationUserManager
+- uid: Microsoft.Owin.Security.IAuthenticationManager
+  commentId: T:Microsoft.Owin.Security.IAuthenticationManager
+  parent: Microsoft.Owin.Security
+  isExternal: true
+  name: IAuthenticationManager
+  nameWithType: IAuthenticationManager
+  fullName: Microsoft.Owin.Security.IAuthenticationManager
+- uid: Microsoft.Owin.Security
+  commentId: N:Microsoft.Owin.Security
+  isExternal: true
+  name: Microsoft.Owin.Security
+  nameWithType: Microsoft.Owin.Security
+  fullName: Microsoft.Owin.Security
+- uid: BookstoreProject.ApplicationSignInManager.CreateUserIdentityAsync*
+  commentId: Overload:BookstoreProject.ApplicationSignInManager.CreateUserIdentityAsync
+  name: CreateUserIdentityAsync
+  nameWithType: ApplicationSignInManager.CreateUserIdentityAsync
+  fullName: BookstoreProject.ApplicationSignInManager.CreateUserIdentityAsync
+- uid: BookstoreProject.Models.ApplicationUser
+  commentId: T:BookstoreProject.Models.ApplicationUser
+  parent: BookstoreProject.Models
+  name: ApplicationUser
+  nameWithType: ApplicationUser
+  fullName: BookstoreProject.Models.ApplicationUser
+- uid: System.Threading.Tasks.Task{System.Security.Claims.ClaimsIdentity}
+  commentId: T:System.Threading.Tasks.Task{System.Security.Claims.ClaimsIdentity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ClaimsIdentity>
+  nameWithType: Task<ClaimsIdentity>
+  fullName: System.Threading.Tasks.Task<System.Security.Claims.ClaimsIdentity>
+  nameWithType.vb: Task(Of ClaimsIdentity)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Security.Claims.ClaimsIdentity)
+  name.vb: Task(Of ClaimsIdentity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Security.Claims.ClaimsIdentity
+    name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BookstoreProject.Models
+  commentId: N:BookstoreProject.Models
+  name: BookstoreProject.Models
+  nameWithType: BookstoreProject.Models
+  fullName: BookstoreProject.Models
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: BookstoreProject.ApplicationSignInManager.Create*
+  commentId: Overload:BookstoreProject.ApplicationSignInManager.Create
+  name: Create
+  nameWithType: ApplicationSignInManager.Create
+  fullName: BookstoreProject.ApplicationSignInManager.Create
+- uid: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{BookstoreProject.ApplicationSignInManager}
+  commentId: T:Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{BookstoreProject.ApplicationSignInManager}
+  parent: Microsoft.AspNet.Identity.Owin
+  definition: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions`1
+  name: IdentityFactoryOptions<ApplicationSignInManager>
+  nameWithType: IdentityFactoryOptions<ApplicationSignInManager>
+  fullName: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions<BookstoreProject.ApplicationSignInManager>
+  nameWithType.vb: IdentityFactoryOptions(Of ApplicationSignInManager)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions(Of BookstoreProject.ApplicationSignInManager)
+  name.vb: IdentityFactoryOptions(Of ApplicationSignInManager)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions`1
+    name: IdentityFactoryOptions
+    nameWithType: IdentityFactoryOptions
+    fullName: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BookstoreProject.ApplicationSignInManager
+    name: ApplicationSignInManager
+    nameWithType: ApplicationSignInManager
+    fullName: BookstoreProject.ApplicationSignInManager
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions`1
+    name: IdentityFactoryOptions
+    nameWithType: IdentityFactoryOptions
+    fullName: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BookstoreProject.ApplicationSignInManager
+    name: ApplicationSignInManager
+    nameWithType: ApplicationSignInManager
+    fullName: BookstoreProject.ApplicationSignInManager
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Owin.IOwinContext
+  commentId: T:Microsoft.Owin.IOwinContext
+  parent: Microsoft.Owin
+  isExternal: true
+  name: IOwinContext
+  nameWithType: IOwinContext
+  fullName: Microsoft.Owin.IOwinContext
+- uid: BookstoreProject.ApplicationSignInManager
+  commentId: T:BookstoreProject.ApplicationSignInManager
+  parent: BookstoreProject
+  name: ApplicationSignInManager
+  nameWithType: ApplicationSignInManager
+  fullName: BookstoreProject.ApplicationSignInManager
+- uid: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions`1
+  commentId: T:Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions`1
+  isExternal: true
+  name: IdentityFactoryOptions<T>
+  nameWithType: IdentityFactoryOptions<T>
+  fullName: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions<T>
+  nameWithType.vb: IdentityFactoryOptions(Of T)
+  fullName.vb: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions(Of T)
+  name.vb: IdentityFactoryOptions(Of T)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions`1
+    name: IdentityFactoryOptions
+    nameWithType: IdentityFactoryOptions
+    fullName: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions`1
+    name: IdentityFactoryOptions
+    nameWithType: IdentityFactoryOptions
+    fullName: Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Owin
+  commentId: N:Microsoft.Owin
+  isExternal: true
+  name: Microsoft.Owin
+  nameWithType: Microsoft.Owin
+  fullName: Microsoft.Owin

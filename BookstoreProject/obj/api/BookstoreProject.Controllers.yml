@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: BookstoreProject.Controllers
+  commentId: N:BookstoreProject.Controllers
+  id: BookstoreProject.Controllers
+  children:
+  - BookstoreProject.Controllers.AccountController
+  - BookstoreProject.Controllers.BooksController
+  - BookstoreProject.Controllers.HomeController
+  - BookstoreProject.Controllers.ManageController
+  - BookstoreProject.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: BookstoreProject.Controllers
+  nameWithType: BookstoreProject.Controllers
+  fullName: BookstoreProject.Controllers
+  type: Namespace
+  assemblies:
+  - BookstoreProject
+references:
+- uid: BookstoreProject.Controllers.AccountController
+  commentId: T:BookstoreProject.Controllers.AccountController
+  name: AccountController
+  nameWithType: AccountController
+  fullName: BookstoreProject.Controllers.AccountController
+- uid: BookstoreProject.Controllers.BooksController
+  commentId: T:BookstoreProject.Controllers.BooksController
+  name: BooksController
+  nameWithType: BooksController
+  fullName: BookstoreProject.Controllers.BooksController
+- uid: BookstoreProject.Controllers.HomeController
+  commentId: T:BookstoreProject.Controllers.HomeController
+  name: HomeController
+  nameWithType: HomeController
+  fullName: BookstoreProject.Controllers.HomeController
+- uid: BookstoreProject.Controllers.ManageController
+  commentId: T:BookstoreProject.Controllers.ManageController
+  name: ManageController
+  nameWithType: ManageController
+  fullName: BookstoreProject.Controllers.ManageController
+- uid: BookstoreProject.Controllers.ManageController.ManageMessageId
+  commentId: T:BookstoreProject.Controllers.ManageController.ManageMessageId
+  parent: BookstoreProject.Controllers
+  name: ManageController.ManageMessageId
+  nameWithType: ManageController.ManageMessageId
+  fullName: BookstoreProject.Controllers.ManageController.ManageMessageId
+- uid: BookstoreProject.Controllers
+  commentId: N:BookstoreProject.Controllers
+  name: BookstoreProject.Controllers
+  nameWithType: BookstoreProject.Controllers
+  fullName: BookstoreProject.Controllers

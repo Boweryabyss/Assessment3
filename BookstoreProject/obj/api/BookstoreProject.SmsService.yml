@@ -1,0 +1,455 @@
+### YamlMime:ManagedReference
+items:
+- uid: BookstoreProject.SmsService
+  commentId: T:BookstoreProject.SmsService
+  id: SmsService
+  parent: BookstoreProject
+  children:
+  - BookstoreProject.SmsService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  langs:
+  - csharp
+  - vb
+  name: SmsService
+  nameWithType: SmsService
+  fullName: BookstoreProject.SmsService
+  type: Class
+  source:
+    id: SmsService
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\App_Start\IdentityConfig.cs
+    startLine: 25
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject
+  syntax:
+    content: 'public class SmsService : IIdentityMessageService'
+    content.vb: >-
+      Public Class SmsService
+          Implements IIdentityMessageService
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.AspNet.Identity.IIdentityMessageService
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BookstoreProject.SmsService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  commentId: M:BookstoreProject.SmsService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  id: SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  parent: BookstoreProject.SmsService
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(IdentityMessage)
+  nameWithType: SmsService.SendAsync(IdentityMessage)
+  fullName: BookstoreProject.SmsService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  type: Method
+  source:
+    id: SendAsync
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\App_Start\IdentityConfig.cs
+    startLine: 27
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject
+  syntax:
+    content: public Task SendAsync(IdentityMessage message)
+    parameters:
+    - id: message
+      type: Microsoft.AspNet.Identity.IdentityMessage
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function SendAsync(message As IdentityMessage) As Task
+  overload: BookstoreProject.SmsService.SendAsync*
+  implements:
+  - Microsoft.AspNet.Identity.IIdentityMessageService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BookstoreProject
+  commentId: N:BookstoreProject
+  name: BookstoreProject
+  nameWithType: BookstoreProject
+  fullName: BookstoreProject
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNet.Identity.IIdentityMessageService
+  commentId: T:Microsoft.AspNet.Identity.IIdentityMessageService
+  parent: Microsoft.AspNet.Identity
+  isExternal: true
+  name: IIdentityMessageService
+  nameWithType: IIdentityMessageService
+  fullName: Microsoft.AspNet.Identity.IIdentityMessageService
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNet.Identity
+  commentId: N:Microsoft.AspNet.Identity
+  isExternal: true
+  name: Microsoft.AspNet.Identity
+  nameWithType: Microsoft.AspNet.Identity
+  fullName: Microsoft.AspNet.Identity
+- uid: BookstoreProject.SmsService.SendAsync*
+  commentId: Overload:BookstoreProject.SmsService.SendAsync
+  name: SendAsync
+  nameWithType: SmsService.SendAsync
+  fullName: BookstoreProject.SmsService.SendAsync
+- uid: Microsoft.AspNet.Identity.IIdentityMessageService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  commentId: M:Microsoft.AspNet.Identity.IIdentityMessageService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  parent: Microsoft.AspNet.Identity.IIdentityMessageService
+  isExternal: true
+  name: SendAsync(IdentityMessage)
+  nameWithType: IIdentityMessageService.SendAsync(IdentityMessage)
+  fullName: Microsoft.AspNet.Identity.IIdentityMessageService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+  spec.csharp:
+  - uid: Microsoft.AspNet.Identity.IIdentityMessageService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+    name: SendAsync
+    nameWithType: IIdentityMessageService.SendAsync
+    fullName: Microsoft.AspNet.Identity.IIdentityMessageService.SendAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNet.Identity.IdentityMessage
+    name: IdentityMessage
+    nameWithType: IdentityMessage
+    fullName: Microsoft.AspNet.Identity.IdentityMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNet.Identity.IIdentityMessageService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)
+    name: SendAsync
+    nameWithType: IIdentityMessageService.SendAsync
+    fullName: Microsoft.AspNet.Identity.IIdentityMessageService.SendAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNet.Identity.IdentityMessage
+    name: IdentityMessage
+    nameWithType: IdentityMessage
+    fullName: Microsoft.AspNet.Identity.IdentityMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNet.Identity.IdentityMessage
+  commentId: T:Microsoft.AspNet.Identity.IdentityMessage
+  parent: Microsoft.AspNet.Identity
+  isExternal: true
+  name: IdentityMessage
+  nameWithType: IdentityMessage
+  fullName: Microsoft.AspNet.Identity.IdentityMessage
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

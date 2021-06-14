@@ -1,0 +1,54 @@
+﻿@model IEnumerable<BookstoreProject.Models.Book>
+
+@{
+    ViewBag.Title = "Store";
+}
+
+<div class="container">
+    <link rel="stylesheet" type="text/css" href="~/Content/StorePage.css" />
+    <div class="sort-pane">
+
+        @using (@Html.BeginForm("Store", "Home", FormMethod.Post))
+        {
+        @Html.DropDownList("Sort by", new List<SelectListItem>
+       {
+        new SelectListItem{Text = "High-Low", Value = "1"},
+        new SelectListItem{Text = "Low-High", Value = "2"},
+        new SelectListItem{Text = "Latest Releases", Value = "3"}
+       }, "Sort by")
+
+        <input type="submit" value="Sort" />
+        }
+        <!--<label for="sort">sort by</label>
+    <select name="sort by" id="sort">
+        <option value="price-asc">High-low</option>
+        <option value="price-dsc">Low-high</option>
+    </select>
+    <input type="button" value="Sort" class="btn btn-primary"/> -->
+    </div>
+
+    <div><input type="button" value="Register Book" class="btn btn-default" onclick="location.href='@Url.Action("Create", "Books")'" /></div>
+    <div class="flex-test">
+
+        @foreach (var item in Model)
+        {
+
+            <div class="content">
+                <div class="card" style="width: 15rem;">
+                    <a href="@Url.Action("ProductPage", "Home", new { id=item.ID})">
+                    <img src="~/Images/placeholder.png" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.Author)</p>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.ReleaseDate)</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>
+

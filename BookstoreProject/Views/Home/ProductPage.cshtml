@@ -1,0 +1,16 @@
+﻿@model BookstoreProject.Models.Book
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <a href=""><img src="~/Images/placeholder.png"/></a>
+        </div>
+        <div class="col-md-6">
+            <h2>@Html.DisplayFor(model => model.Title), @Html.DisplayFor(model=> model.ReleaseDate)</h2>
+            <p>by @Html.DisplayFor(model => model.Author)  </p>
+        </div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: BookstoreProject.Models.SendCodeViewModel
+  commentId: T:BookstoreProject.Models.SendCodeViewModel
+  id: SendCodeViewModel
+  parent: BookstoreProject.Models
+  children:
+  - BookstoreProject.Models.SendCodeViewModel.Providers
+  - BookstoreProject.Models.SendCodeViewModel.RememberMe
+  - BookstoreProject.Models.SendCodeViewModel.ReturnUrl
+  - BookstoreProject.Models.SendCodeViewModel.SelectedProvider
+  langs:
+  - csharp
+  - vb
+  name: SendCodeViewModel
+  nameWithType: SendCodeViewModel
+  fullName: BookstoreProject.Models.SendCodeViewModel
+  type: Class
+  source:
+    id: SendCodeViewModel
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\AccountViewModels.cs
+    startLine: 17
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public class SendCodeViewModel
+    content.vb: Public Class SendCodeViewModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BookstoreProject.Models.SendCodeViewModel.SelectedProvider
+  commentId: P:BookstoreProject.Models.SendCodeViewModel.SelectedProvider
+  id: SelectedProvider
+  parent: BookstoreProject.Models.SendCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: SelectedProvider
+  nameWithType: SendCodeViewModel.SelectedProvider
+  fullName: BookstoreProject.Models.SendCodeViewModel.SelectedProvider
+  type: Property
+  source:
+    id: SelectedProvider
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\AccountViewModels.cs
+    startLine: 19
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public string SelectedProvider { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SelectedProvider As String
+  overload: BookstoreProject.Models.SendCodeViewModel.SelectedProvider*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.SendCodeViewModel.Providers
+  commentId: P:BookstoreProject.Models.SendCodeViewModel.Providers
+  id: Providers
+  parent: BookstoreProject.Models.SendCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: Providers
+  nameWithType: SendCodeViewModel.Providers
+  fullName: BookstoreProject.Models.SendCodeViewModel.Providers
+  type: Property
+  source:
+    id: Providers
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\AccountViewModels.cs
+    startLine: 20
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public ICollection<SelectListItem> Providers { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.ICollection{System.Web.Mvc.SelectListItem}
+    content.vb: Public Property Providers As ICollection(Of SelectListItem)
+  overload: BookstoreProject.Models.SendCodeViewModel.Providers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.SendCodeViewModel.ReturnUrl
+  commentId: P:BookstoreProject.Models.SendCodeViewModel.ReturnUrl
+  id: ReturnUrl
+  parent: BookstoreProject.Models.SendCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: ReturnUrl
+  nameWithType: SendCodeViewModel.ReturnUrl
+  fullName: BookstoreProject.Models.SendCodeViewModel.ReturnUrl
+  type: Property
+  source:
+    id: ReturnUrl
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\AccountViewModels.cs
+    startLine: 21
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public string ReturnUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReturnUrl As String
+  overload: BookstoreProject.Models.SendCodeViewModel.ReturnUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.SendCodeViewModel.RememberMe
+  commentId: P:BookstoreProject.Models.SendCodeViewModel.RememberMe
+  id: RememberMe
+  parent: BookstoreProject.Models.SendCodeViewModel
+  langs:
+  - csharp
+  - vb
+  name: RememberMe
+  nameWithType: SendCodeViewModel.RememberMe
+  fullName: BookstoreProject.Models.SendCodeViewModel.RememberMe
+  type: Property
+  source:
+    id: RememberMe
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\AccountViewModels.cs
+    startLine: 22
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public bool RememberMe { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RememberMe As Boolean
+  overload: BookstoreProject.Models.SendCodeViewModel.RememberMe*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BookstoreProject.Models
+  commentId: N:BookstoreProject.Models
+  name: BookstoreProject.Models
+  nameWithType: BookstoreProject.Models
+  fullName: BookstoreProject.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BookstoreProject.Models.SendCodeViewModel.SelectedProvider*
+  commentId: Overload:BookstoreProject.Models.SendCodeViewModel.SelectedProvider
+  name: SelectedProvider
+  nameWithType: SendCodeViewModel.SelectedProvider
+  fullName: BookstoreProject.Models.SendCodeViewModel.SelectedProvider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BookstoreProject.Models.SendCodeViewModel.Providers*
+  commentId: Overload:BookstoreProject.Models.SendCodeViewModel.Providers
+  name: Providers
+  nameWithType: SendCodeViewModel.Providers
+  fullName: BookstoreProject.Models.SendCodeViewModel.Providers
+- uid: System.Collections.Generic.ICollection{System.Web.Mvc.SelectListItem}
+  commentId: T:System.Collections.Generic.ICollection{System.Web.Mvc.SelectListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<SelectListItem>
+  nameWithType: ICollection<SelectListItem>
+  fullName: System.Collections.Generic.ICollection<System.Web.Mvc.SelectListItem>
+  nameWithType.vb: ICollection(Of SelectListItem)
+  fullName.vb: System.Collections.Generic.ICollection(Of System.Web.Mvc.SelectListItem)
+  name.vb: ICollection(Of SelectListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Web.Mvc.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: System.Web.Mvc.SelectListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Web.Mvc.SelectListItem
+    name: SelectListItem
+    nameWithType: SelectListItem
+    fullName: System.Web.Mvc.SelectListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  commentId: T:System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<T>
+  nameWithType: ICollection<T>
+  fullName: System.Collections.Generic.ICollection<T>
+  nameWithType.vb: ICollection(Of T)
+  fullName.vb: System.Collections.Generic.ICollection(Of T)
+  name.vb: ICollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: BookstoreProject.Models.SendCodeViewModel.ReturnUrl*
+  commentId: Overload:BookstoreProject.Models.SendCodeViewModel.ReturnUrl
+  name: ReturnUrl
+  nameWithType: SendCodeViewModel.ReturnUrl
+  fullName: BookstoreProject.Models.SendCodeViewModel.ReturnUrl
+- uid: BookstoreProject.Models.SendCodeViewModel.RememberMe*
+  commentId: Overload:BookstoreProject.Models.SendCodeViewModel.RememberMe
+  name: RememberMe
+  nameWithType: SendCodeViewModel.RememberMe
+  fullName: BookstoreProject.Models.SendCodeViewModel.RememberMe
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

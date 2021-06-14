@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: BookstoreProject.Models.IndexViewModel
+  commentId: T:BookstoreProject.Models.IndexViewModel
+  id: IndexViewModel
+  parent: BookstoreProject.Models
+  children:
+  - BookstoreProject.Models.IndexViewModel.BrowserRemembered
+  - BookstoreProject.Models.IndexViewModel.HasPassword
+  - BookstoreProject.Models.IndexViewModel.Logins
+  - BookstoreProject.Models.IndexViewModel.PhoneNumber
+  - BookstoreProject.Models.IndexViewModel.TwoFactor
+  langs:
+  - csharp
+  - vb
+  name: IndexViewModel
+  nameWithType: IndexViewModel
+  fullName: BookstoreProject.Models.IndexViewModel
+  type: Class
+  source:
+    id: IndexViewModel
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\ManageViewModels.cs
+    startLine: 7
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public class IndexViewModel
+    content.vb: Public Class IndexViewModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BookstoreProject.Models.IndexViewModel.HasPassword
+  commentId: P:BookstoreProject.Models.IndexViewModel.HasPassword
+  id: HasPassword
+  parent: BookstoreProject.Models.IndexViewModel
+  langs:
+  - csharp
+  - vb
+  name: HasPassword
+  nameWithType: IndexViewModel.HasPassword
+  fullName: BookstoreProject.Models.IndexViewModel.HasPassword
+  type: Property
+  source:
+    id: HasPassword
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\ManageViewModels.cs
+    startLine: 9
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public bool HasPassword { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasPassword As Boolean
+  overload: BookstoreProject.Models.IndexViewModel.HasPassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.IndexViewModel.Logins
+  commentId: P:BookstoreProject.Models.IndexViewModel.Logins
+  id: Logins
+  parent: BookstoreProject.Models.IndexViewModel
+  langs:
+  - csharp
+  - vb
+  name: Logins
+  nameWithType: IndexViewModel.Logins
+  fullName: BookstoreProject.Models.IndexViewModel.Logins
+  type: Property
+  source:
+    id: Logins
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\ManageViewModels.cs
+    startLine: 10
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public IList<UserLoginInfo> Logins { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Microsoft.AspNet.Identity.UserLoginInfo}
+    content.vb: Public Property Logins As IList(Of UserLoginInfo)
+  overload: BookstoreProject.Models.IndexViewModel.Logins*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.IndexViewModel.PhoneNumber
+  commentId: P:BookstoreProject.Models.IndexViewModel.PhoneNumber
+  id: PhoneNumber
+  parent: BookstoreProject.Models.IndexViewModel
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: IndexViewModel.PhoneNumber
+  fullName: BookstoreProject.Models.IndexViewModel.PhoneNumber
+  type: Property
+  source:
+    id: PhoneNumber
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\ManageViewModels.cs
+    startLine: 11
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: BookstoreProject.Models.IndexViewModel.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.IndexViewModel.TwoFactor
+  commentId: P:BookstoreProject.Models.IndexViewModel.TwoFactor
+  id: TwoFactor
+  parent: BookstoreProject.Models.IndexViewModel
+  langs:
+  - csharp
+  - vb
+  name: TwoFactor
+  nameWithType: IndexViewModel.TwoFactor
+  fullName: BookstoreProject.Models.IndexViewModel.TwoFactor
+  type: Property
+  source:
+    id: TwoFactor
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\ManageViewModels.cs
+    startLine: 12
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public bool TwoFactor { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TwoFactor As Boolean
+  overload: BookstoreProject.Models.IndexViewModel.TwoFactor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BookstoreProject.Models.IndexViewModel.BrowserRemembered
+  commentId: P:BookstoreProject.Models.IndexViewModel.BrowserRemembered
+  id: BrowserRemembered
+  parent: BookstoreProject.Models.IndexViewModel
+  langs:
+  - csharp
+  - vb
+  name: BrowserRemembered
+  nameWithType: IndexViewModel.BrowserRemembered
+  fullName: BookstoreProject.Models.IndexViewModel.BrowserRemembered
+  type: Property
+  source:
+    id: BrowserRemembered
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\ManageViewModels.cs
+    startLine: 13
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: public bool BrowserRemembered { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property BrowserRemembered As Boolean
+  overload: BookstoreProject.Models.IndexViewModel.BrowserRemembered*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BookstoreProject.Models
+  commentId: N:BookstoreProject.Models
+  name: BookstoreProject.Models
+  nameWithType: BookstoreProject.Models
+  fullName: BookstoreProject.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BookstoreProject.Models.IndexViewModel.HasPassword*
+  commentId: Overload:BookstoreProject.Models.IndexViewModel.HasPassword
+  name: HasPassword
+  nameWithType: IndexViewModel.HasPassword
+  fullName: BookstoreProject.Models.IndexViewModel.HasPassword
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BookstoreProject.Models.IndexViewModel.Logins*
+  commentId: Overload:BookstoreProject.Models.IndexViewModel.Logins
+  name: Logins
+  nameWithType: IndexViewModel.Logins
+  fullName: BookstoreProject.Models.IndexViewModel.Logins
+- uid: System.Collections.Generic.IList{Microsoft.AspNet.Identity.UserLoginInfo}
+  commentId: T:System.Collections.Generic.IList{Microsoft.AspNet.Identity.UserLoginInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<UserLoginInfo>
+  nameWithType: IList<UserLoginInfo>
+  fullName: System.Collections.Generic.IList<Microsoft.AspNet.Identity.UserLoginInfo>
+  nameWithType.vb: IList(Of UserLoginInfo)
+  fullName.vb: System.Collections.Generic.IList(Of Microsoft.AspNet.Identity.UserLoginInfo)
+  name.vb: IList(Of UserLoginInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNet.Identity.UserLoginInfo
+    name: UserLoginInfo
+    nameWithType: UserLoginInfo
+    fullName: Microsoft.AspNet.Identity.UserLoginInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNet.Identity.UserLoginInfo
+    name: UserLoginInfo
+    nameWithType: UserLoginInfo
+    fullName: Microsoft.AspNet.Identity.UserLoginInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: BookstoreProject.Models.IndexViewModel.PhoneNumber*
+  commentId: Overload:BookstoreProject.Models.IndexViewModel.PhoneNumber
+  name: PhoneNumber
+  nameWithType: IndexViewModel.PhoneNumber
+  fullName: BookstoreProject.Models.IndexViewModel.PhoneNumber
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BookstoreProject.Models.IndexViewModel.TwoFactor*
+  commentId: Overload:BookstoreProject.Models.IndexViewModel.TwoFactor
+  name: TwoFactor
+  nameWithType: IndexViewModel.TwoFactor
+  fullName: BookstoreProject.Models.IndexViewModel.TwoFactor
+- uid: BookstoreProject.Models.IndexViewModel.BrowserRemembered*
+  commentId: Overload:BookstoreProject.Models.IndexViewModel.BrowserRemembered
+  name: BrowserRemembered
+  nameWithType: IndexViewModel.BrowserRemembered
+  fullName: BookstoreProject.Models.IndexViewModel.BrowserRemembered

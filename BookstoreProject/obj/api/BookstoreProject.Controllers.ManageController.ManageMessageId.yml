@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: BookstoreProject.Controllers.ManageController.ManageMessageId
+  commentId: T:BookstoreProject.Controllers.ManageController.ManageMessageId
+  id: ManageController.ManageMessageId
+  parent: BookstoreProject.Controllers
+  children:
+  - BookstoreProject.Controllers.ManageController.ManageMessageId.AddPhoneSuccess
+  - BookstoreProject.Controllers.ManageController.ManageMessageId.ChangePasswordSuccess
+  - BookstoreProject.Controllers.ManageController.ManageMessageId.Error
+  - BookstoreProject.Controllers.ManageController.ManageMessageId.RemoveLoginSuccess
+  - BookstoreProject.Controllers.ManageController.ManageMessageId.RemovePhoneSuccess
+  - BookstoreProject.Controllers.ManageController.ManageMessageId.SetPasswordSuccess
+  - BookstoreProject.Controllers.ManageController.ManageMessageId.SetTwoFactorSuccess
+  langs:
+  - csharp
+  - vb
+  name: ManageController.ManageMessageId
+  nameWithType: ManageController.ManageMessageId
+  fullName: BookstoreProject.Controllers.ManageController.ManageMessageId
+  type: Enum
+  source:
+    id: ManageMessageId
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Controllers\ManageController.cs
+    startLine: 375
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Controllers
+  syntax:
+    content: public enum ManageMessageId
+    content.vb: Public Enum ManageMessageId
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: BookstoreProject.Controllers.ManageController.ManageMessageId.AddPhoneSuccess
+  commentId: F:BookstoreProject.Controllers.ManageController.ManageMessageId.AddPhoneSuccess
+  id: AddPhoneSuccess
+  parent: BookstoreProject.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: AddPhoneSuccess
+  nameWithType: ManageController.ManageMessageId.AddPhoneSuccess
+  fullName: BookstoreProject.Controllers.ManageController.ManageMessageId.AddPhoneSuccess
+  type: Field
+  source:
+    id: AddPhoneSuccess
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Controllers\ManageController.cs
+    startLine: 377
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Controllers
+  syntax:
+    content: AddPhoneSuccess = 0
+    return:
+      type: BookstoreProject.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BookstoreProject.Controllers.ManageController.ManageMessageId.ChangePasswordSuccess
+  commentId: F:BookstoreProject.Controllers.ManageController.ManageMessageId.ChangePasswordSuccess
+  id: ChangePasswordSuccess
+  parent: BookstoreProject.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: ChangePasswordSuccess
+  nameWithType: ManageController.ManageMessageId.ChangePasswordSuccess
+  fullName: BookstoreProject.Controllers.ManageController.ManageMessageId.ChangePasswordSuccess
+  type: Field
+  source:
+    id: ChangePasswordSuccess
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Controllers\ManageController.cs
+    startLine: 378
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Controllers
+  syntax:
+    content: ChangePasswordSuccess = 1
+    return:
+      type: BookstoreProject.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BookstoreProject.Controllers.ManageController.ManageMessageId.SetTwoFactorSuccess
+  commentId: F:BookstoreProject.Controllers.ManageController.ManageMessageId.SetTwoFactorSuccess
+  id: SetTwoFactorSuccess
+  parent: BookstoreProject.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: SetTwoFactorSuccess
+  nameWithType: ManageController.ManageMessageId.SetTwoFactorSuccess
+  fullName: BookstoreProject.Controllers.ManageController.ManageMessageId.SetTwoFactorSuccess
+  type: Field
+  source:
+    id: SetTwoFactorSuccess
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Controllers\ManageController.cs
+    startLine: 379
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Controllers
+  syntax:
+    content: SetTwoFactorSuccess = 2
+    return:
+      type: BookstoreProject.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BookstoreProject.Controllers.ManageController.ManageMessageId.SetPasswordSuccess
+  commentId: F:BookstoreProject.Controllers.ManageController.ManageMessageId.SetPasswordSuccess
+  id: SetPasswordSuccess
+  parent: BookstoreProject.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: SetPasswordSuccess
+  nameWithType: ManageController.ManageMessageId.SetPasswordSuccess
+  fullName: BookstoreProject.Controllers.ManageController.ManageMessageId.SetPasswordSuccess
+  type: Field
+  source:
+    id: SetPasswordSuccess
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Controllers\ManageController.cs
+    startLine: 380
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Controllers
+  syntax:
+    content: SetPasswordSuccess = 3
+    return:
+      type: BookstoreProject.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BookstoreProject.Controllers.ManageController.ManageMessageId.RemoveLoginSuccess
+  commentId: F:BookstoreProject.Controllers.ManageController.ManageMessageId.RemoveLoginSuccess
+  id: RemoveLoginSuccess
+  parent: BookstoreProject.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: RemoveLoginSuccess
+  nameWithType: ManageController.ManageMessageId.RemoveLoginSuccess
+  fullName: BookstoreProject.Controllers.ManageController.ManageMessageId.RemoveLoginSuccess
+  type: Field
+  source:
+    id: RemoveLoginSuccess
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Controllers\ManageController.cs
+    startLine: 381
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Controllers
+  syntax:
+    content: RemoveLoginSuccess = 4
+    return:
+      type: BookstoreProject.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BookstoreProject.Controllers.ManageController.ManageMessageId.RemovePhoneSuccess
+  commentId: F:BookstoreProject.Controllers.ManageController.ManageMessageId.RemovePhoneSuccess
+  id: RemovePhoneSuccess
+  parent: BookstoreProject.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: RemovePhoneSuccess
+  nameWithType: ManageController.ManageMessageId.RemovePhoneSuccess
+  fullName: BookstoreProject.Controllers.ManageController.ManageMessageId.RemovePhoneSuccess
+  type: Field
+  source:
+    id: RemovePhoneSuccess
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Controllers\ManageController.cs
+    startLine: 382
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Controllers
+  syntax:
+    content: RemovePhoneSuccess = 5
+    return:
+      type: BookstoreProject.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BookstoreProject.Controllers.ManageController.ManageMessageId.Error
+  commentId: F:BookstoreProject.Controllers.ManageController.ManageMessageId.Error
+  id: Error
+  parent: BookstoreProject.Controllers.ManageController.ManageMessageId
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: ManageController.ManageMessageId.Error
+  fullName: BookstoreProject.Controllers.ManageController.ManageMessageId.Error
+  type: Field
+  source:
+    id: Error
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Controllers\ManageController.cs
+    startLine: 383
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Controllers
+  syntax:
+    content: Error = 6
+    return:
+      type: BookstoreProject.Controllers.ManageController.ManageMessageId
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BookstoreProject.Controllers
+  commentId: N:BookstoreProject.Controllers
+  name: BookstoreProject.Controllers
+  nameWithType: BookstoreProject.Controllers
+  fullName: BookstoreProject.Controllers
+- uid: BookstoreProject.Controllers.ManageController.ManageMessageId
+  commentId: T:BookstoreProject.Controllers.ManageController.ManageMessageId
+  parent: BookstoreProject.Controllers
+  name: ManageController.ManageMessageId
+  nameWithType: ManageController.ManageMessageId
+  fullName: BookstoreProject.Controllers.ManageController.ManageMessageId

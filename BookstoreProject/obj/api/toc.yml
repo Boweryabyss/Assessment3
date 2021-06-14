@@ -1,0 +1,85 @@
+### YamlMime:TableOfContent
+- uid: BookstoreProject
+  name: BookstoreProject
+  items:
+  - uid: BookstoreProject.ApplicationSignInManager
+    name: ApplicationSignInManager
+  - uid: BookstoreProject.ApplicationUserManager
+    name: ApplicationUserManager
+  - uid: BookstoreProject.BundleConfig
+    name: BundleConfig
+  - uid: BookstoreProject.EmailService
+    name: EmailService
+  - uid: BookstoreProject.FilterConfig
+    name: FilterConfig
+  - uid: BookstoreProject.MvcApplication
+    name: MvcApplication
+  - uid: BookstoreProject.RouteConfig
+    name: RouteConfig
+  - uid: BookstoreProject.SmsService
+    name: SmsService
+  - uid: BookstoreProject.Startup
+    name: Startup
+- uid: BookstoreProject.Controllers
+  name: BookstoreProject.Controllers
+  items:
+  - uid: BookstoreProject.Controllers.AccountController
+    name: AccountController
+  - uid: BookstoreProject.Controllers.BooksController
+    name: BooksController
+  - uid: BookstoreProject.Controllers.HomeController
+    name: HomeController
+  - uid: BookstoreProject.Controllers.ManageController
+    name: ManageController
+  - uid: BookstoreProject.Controllers.ManageController.ManageMessageId
+    name: ManageController.ManageMessageId
+- uid: BookstoreProject.Migrations
+  name: BookstoreProject.Migrations
+  items:
+  - uid: BookstoreProject.Migrations.bookproperties
+    name: bookproperties
+- uid: BookstoreProject.Models
+  name: BookstoreProject.Models
+  items:
+  - uid: BookstoreProject.Models.AddPhoneNumberViewModel
+    name: AddPhoneNumberViewModel
+  - uid: BookstoreProject.Models.ApplicationDbContext
+    name: ApplicationDbContext
+  - uid: BookstoreProject.Models.ApplicationUser
+    name: ApplicationUser
+  - uid: BookstoreProject.Models.Book
+    name: Book
+  - uid: BookstoreProject.Models.BookDBContext
+    name: BookDBContext
+  - uid: BookstoreProject.Models.ChangePasswordViewModel
+    name: ChangePasswordViewModel
+  - uid: BookstoreProject.Models.ConfigureTwoFactorViewModel
+    name: ConfigureTwoFactorViewModel
+  - uid: BookstoreProject.Models.ExternalLoginConfirmationViewModel
+    name: ExternalLoginConfirmationViewModel
+  - uid: BookstoreProject.Models.ExternalLoginListViewModel
+    name: ExternalLoginListViewModel
+  - uid: BookstoreProject.Models.FactorViewModel
+    name: FactorViewModel
+  - uid: BookstoreProject.Models.ForgotPasswordViewModel
+    name: ForgotPasswordViewModel
+  - uid: BookstoreProject.Models.ForgotViewModel
+    name: ForgotViewModel
+  - uid: BookstoreProject.Models.IndexViewModel
+    name: IndexViewModel
+  - uid: BookstoreProject.Models.LoginViewModel
+    name: LoginViewModel
+  - uid: BookstoreProject.Models.ManageLoginsViewModel
+    name: ManageLoginsViewModel
+  - uid: BookstoreProject.Models.RegisterViewModel
+    name: RegisterViewModel
+  - uid: BookstoreProject.Models.ResetPasswordViewModel
+    name: ResetPasswordViewModel
+  - uid: BookstoreProject.Models.SendCodeViewModel
+    name: SendCodeViewModel
+  - uid: BookstoreProject.Models.SetPasswordViewModel
+    name: SetPasswordViewModel
+  - uid: BookstoreProject.Models.VerifyCodeViewModel
+    name: VerifyCodeViewModel
+  - uid: BookstoreProject.Models.VerifyPhoneNumberViewModel
+    name: VerifyPhoneNumberViewModel
