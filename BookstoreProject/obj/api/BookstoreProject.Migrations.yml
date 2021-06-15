@@ -5,6 +5,7 @@ items:
   id: BookstoreProject.Migrations
   children:
   - BookstoreProject.Migrations.bookproperties
+  - BookstoreProject.Migrations.GenreColumn
   langs:
   - csharp
   - vb
@@ -20,3 +21,8 @@ references:
   name: bookproperties
   nameWithType: bookproperties
   fullName: BookstoreProject.Migrations.bookproperties
+- uid: BookstoreProject.Migrations.GenreColumn
+  commentId: T:BookstoreProject.Migrations.GenreColumn
+  name: GenreColumn
+  nameWithType: GenreColumn
+  fullName: BookstoreProject.Migrations.GenreColumn

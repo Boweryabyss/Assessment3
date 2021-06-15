@@ -1017,6 +1017,89 @@ references:
   isSpec: "True"
   fullName: BookstoreProject.Migrations.bookproperties.Up
   nameWithType: bookproperties.Up
+- uid: BookstoreProject.Migrations.GenreColumn
+  name: GenreColumn
+  href: api/BookstoreProject.Migrations.GenreColumn.html
+  commentId: T:BookstoreProject.Migrations.GenreColumn
+  fullName: BookstoreProject.Migrations.GenreColumn
+  nameWithType: GenreColumn
+- uid: BookstoreProject.Migrations.GenreColumn.Down
+  name: Down()
+  href: api/BookstoreProject.Migrations.GenreColumn.html#BookstoreProject_Migrations_GenreColumn_Down
+  commentId: M:BookstoreProject.Migrations.GenreColumn.Down
+  fullName: BookstoreProject.Migrations.GenreColumn.Down()
+  nameWithType: GenreColumn.Down()
+- uid: BookstoreProject.Migrations.GenreColumn.Down*
+  name: Down
+  href: api/BookstoreProject.Migrations.GenreColumn.html#BookstoreProject_Migrations_GenreColumn_Down_
+  commentId: Overload:BookstoreProject.Migrations.GenreColumn.Down
+  isSpec: "True"
+  fullName: BookstoreProject.Migrations.GenreColumn.Down
+  nameWithType: GenreColumn.Down
+- uid: BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id
+  name: IMigrationMetadata.Id
+  href: api/BookstoreProject.Migrations.GenreColumn.html#BookstoreProject_Migrations_GenreColumn_System_Data_Entity_Migrations_Infrastructure_IMigrationMetadata_Id
+  commentId: P:BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  fullName: BookstoreProject.Migrations.GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  nameWithType: GenreColumn.IMigrationMetadata.Id
+  nameWithType.vb: GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+- uid: BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id*
+  name: IMigrationMetadata.Id
+  href: api/BookstoreProject.Migrations.GenreColumn.html#BookstoreProject_Migrations_GenreColumn_System_Data_Entity_Migrations_Infrastructure_IMigrationMetadata_Id_
+  commentId: Overload:BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Id
+  isSpec: "True"
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  fullName: BookstoreProject.Migrations.GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+  nameWithType: GenreColumn.IMigrationMetadata.Id
+  nameWithType.vb: GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Id
+- uid: BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source
+  name: IMigrationMetadata.Source
+  href: api/BookstoreProject.Migrations.GenreColumn.html#BookstoreProject_Migrations_GenreColumn_System_Data_Entity_Migrations_Infrastructure_IMigrationMetadata_Source
+  commentId: P:BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  fullName: BookstoreProject.Migrations.GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  nameWithType: GenreColumn.IMigrationMetadata.Source
+  nameWithType.vb: GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+- uid: BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source*
+  name: IMigrationMetadata.Source
+  href: api/BookstoreProject.Migrations.GenreColumn.html#BookstoreProject_Migrations_GenreColumn_System_Data_Entity_Migrations_Infrastructure_IMigrationMetadata_Source_
+  commentId: Overload:BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Source
+  isSpec: "True"
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  fullName: BookstoreProject.Migrations.GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+  nameWithType: GenreColumn.IMigrationMetadata.Source
+  nameWithType.vb: GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Source
+- uid: BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target
+  name: IMigrationMetadata.Target
+  href: api/BookstoreProject.Migrations.GenreColumn.html#BookstoreProject_Migrations_GenreColumn_System_Data_Entity_Migrations_Infrastructure_IMigrationMetadata_Target
+  commentId: P:BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  fullName: BookstoreProject.Migrations.GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  nameWithType: GenreColumn.IMigrationMetadata.Target
+  nameWithType.vb: GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+- uid: BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target*
+  name: IMigrationMetadata.Target
+  href: api/BookstoreProject.Migrations.GenreColumn.html#BookstoreProject_Migrations_GenreColumn_System_Data_Entity_Migrations_Infrastructure_IMigrationMetadata_Target_
+  commentId: Overload:BookstoreProject.Migrations.GenreColumn.System#Data#Entity#Migrations#Infrastructure#IMigrationMetadata#Target
+  isSpec: "True"
+  name.vb: System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  fullName: BookstoreProject.Migrations.GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+  nameWithType: GenreColumn.IMigrationMetadata.Target
+  nameWithType.vb: GenreColumn.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.Target
+- uid: BookstoreProject.Migrations.GenreColumn.Up
+  name: Up()
+  href: api/BookstoreProject.Migrations.GenreColumn.html#BookstoreProject_Migrations_GenreColumn_Up
+  commentId: M:BookstoreProject.Migrations.GenreColumn.Up
+  fullName: BookstoreProject.Migrations.GenreColumn.Up()
+  nameWithType: GenreColumn.Up()
+- uid: BookstoreProject.Migrations.GenreColumn.Up*
+  name: Up
+  href: api/BookstoreProject.Migrations.GenreColumn.html#BookstoreProject_Migrations_GenreColumn_Up_
+  commentId: Overload:BookstoreProject.Migrations.GenreColumn.Up
+  isSpec: "True"
+  fullName: BookstoreProject.Migrations.GenreColumn.Up
+  nameWithType: GenreColumn.Up
 - uid: BookstoreProject.Models
   name: BookstoreProject.Models
   href: api/BookstoreProject.Models.html
@@ -1115,6 +1198,19 @@ references:
   isSpec: "True"
   fullName: BookstoreProject.Models.Book.Author
   nameWithType: Book.Author
+- uid: BookstoreProject.Models.Book.Genre
+  name: Genre
+  href: api/BookstoreProject.Models.Book.html#BookstoreProject_Models_Book_Genre
+  commentId: P:BookstoreProject.Models.Book.Genre
+  fullName: BookstoreProject.Models.Book.Genre
+  nameWithType: Book.Genre
+- uid: BookstoreProject.Models.Book.Genre*
+  name: Genre
+  href: api/BookstoreProject.Models.Book.html#BookstoreProject_Models_Book_Genre_
+  commentId: Overload:BookstoreProject.Models.Book.Genre
+  isSpec: "True"
+  fullName: BookstoreProject.Models.Book.Genre
+  nameWithType: Book.Genre
 - uid: BookstoreProject.Models.Book.ID
   name: ID
   href: api/BookstoreProject.Models.Book.html#BookstoreProject_Models_Book_ID

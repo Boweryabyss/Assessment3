@@ -288,14 +288,17 @@ items:
   source:
     id: Store
     path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Controllers\HomeController.cs
-    startLine: 32
+    startLine: 39
   assemblies:
   - BookstoreProject
   namespace: BookstoreProject.Controllers
+  summary: "\nThe store Method uses a ActionResult type which will return a view based upon the sortType, \nthe sortType will determine whether the list of books is sorted by Price ascending or descending, or \nrelease date of latest releases\n"
+  example: []
   syntax:
     content: public ActionResult Store()
     return:
       type: System.Web.Mvc.ActionResult
+      description: "List from dbSet if sortType is null \nelse returns a sorted list based upon the sortType received from the Request"
     content.vb: Public Function Store As ActionResult
   overload: BookstoreProject.Controllers.HomeController.Store*
   modifiers.csharp:
@@ -316,17 +319,24 @@ items:
   source:
     id: ProductPage
     path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Controllers\HomeController.cs
-    startLine: 55
+    startLine: 68
   assemblies:
   - BookstoreProject
   namespace: BookstoreProject.Controllers
+  summary: "\nDisplaying of a product page of a given Book\n"
+  example: []
   syntax:
     content: public ActionResult ProductPage(int? id)
     parameters:
     - id: id
       type: System.Nullable{System.Int32}
+      description: ''
     return:
       type: System.Web.Mvc.ActionResult
+      description: >-
+        Error message id id is null or if a book object received is null else it will return a view with a book with
+
+        the associated id
     content.vb: Public Function ProductPage(id As Integer?) As ActionResult
   overload: BookstoreProject.Controllers.HomeController.ProductPage*
   nameWithType.vb: HomeController.ProductPage(Nullable(Of Int32))

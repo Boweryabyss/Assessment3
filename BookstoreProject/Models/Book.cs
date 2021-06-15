@@ -20,6 +20,9 @@ namespace BookstoreProject.Models
         public string Title { get; set; }
         [StringLength(154)]
         [Required]
+        public string Genre { get; set; }
+        [StringLength(154)]
+        [Required]
         public string Author { get; set; }
         [Required]
         public double Price { get; set; }

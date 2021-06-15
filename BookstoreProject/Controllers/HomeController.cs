@@ -39,6 +39,7 @@ namespace BookstoreProject.Controllers
         /// else returns a sorted list based upon the sortType received from the Request</returns>
         public ActionResult Store()
         {
+            
             int? sortType = Convert.ToInt32(Request.Form["Sort by"]);
             if (sortType.Equals(null))
             {

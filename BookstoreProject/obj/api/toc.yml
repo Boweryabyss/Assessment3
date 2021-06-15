@@ -38,6 +38,8 @@
   items:
   - uid: BookstoreProject.Migrations.bookproperties
     name: bookproperties
+  - uid: BookstoreProject.Migrations.GenreColumn
+    name: GenreColumn
 - uid: BookstoreProject.Models
   name: BookstoreProject.Models
   items:

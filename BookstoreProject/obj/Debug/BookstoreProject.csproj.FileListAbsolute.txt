@@ -218,3 +218,4 @@ D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Asse
 D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\obj\Debug\BookstoreProject.csproj.CopyComplete
 D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\obj\Debug\BookstoreProject.dll
 D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\obj\Debug\BookstoreProject.pdb
+D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\obj\Debug\BookstoreProject.Migrations.GenreColumn.resources

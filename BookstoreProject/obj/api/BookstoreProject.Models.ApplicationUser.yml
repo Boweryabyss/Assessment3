@@ -81,7 +81,7 @@ items:
   - BookstoreProject
   namespace: BookstoreProject.Models
   syntax:
-    content: public Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
+    content: public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
     parameters:
     - id: manager
       type: Microsoft.AspNet.Identity.UserManager{BookstoreProject.Models.ApplicationUser}
@@ -92,6 +92,7 @@ items:
   nameWithType.vb: ApplicationUser.GenerateUserIdentityAsync(UserManager(Of ApplicationUser))
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
   fullName.vb: BookstoreProject.Models.ApplicationUser.GenerateUserIdentityAsync(Microsoft.AspNet.Identity.UserManager(Of BookstoreProject.Models.ApplicationUser))

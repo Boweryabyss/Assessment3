@@ -6,6 +6,7 @@ items:
   parent: BookstoreProject.Models
   children:
   - BookstoreProject.Models.Book.Author
+  - BookstoreProject.Models.Book.Genre
   - BookstoreProject.Models.Book.ID
   - BookstoreProject.Models.Book.Price
   - BookstoreProject.Models.Book.ReleaseDate
@@ -126,6 +127,56 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: BookstoreProject.Models.Book.Genre
+  commentId: P:BookstoreProject.Models.Book.Genre
+  id: Genre
+  parent: BookstoreProject.Models.Book
+  langs:
+  - csharp
+  - vb
+  name: Genre
+  nameWithType: Book.Genre
+  fullName: BookstoreProject.Models.Book.Genre
+  type: Property
+  source:
+    id: Genre
+    path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
+    startLine: 20
+  assemblies:
+  - BookstoreProject
+  namespace: BookstoreProject.Models
+  syntax:
+    content: >-
+      [StringLength(154)]
+
+      [Required]
+
+      public string Genre { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <StringLength(154)>
+
+      <Required>
+
+      Public Property Genre As String
+  overload: BookstoreProject.Models.Book.Genre*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.StringLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.StringLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 154
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: BookstoreProject.Models.Book.Author
   commentId: P:BookstoreProject.Models.Book.Author
   id: Author
@@ -140,7 +191,7 @@ items:
   source:
     id: Author
     path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
-    startLine: 20
+    startLine: 23
   assemblies:
   - BookstoreProject
   namespace: BookstoreProject.Models
@@ -190,7 +241,7 @@ items:
   source:
     id: Price
     path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
-    startLine: 23
+    startLine: 26
   assemblies:
   - BookstoreProject
   namespace: BookstoreProject.Models
@@ -231,7 +282,7 @@ items:
   source:
     id: ReleaseDate
     path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
-    startLine: 25
+    startLine: 28
   assemblies:
   - BookstoreProject
   namespace: BookstoreProject.Models
@@ -603,6 +654,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: BookstoreProject.Models.Book.Genre*
+  commentId: Overload:BookstoreProject.Models.Book.Genre
+  name: Genre
+  nameWithType: Book.Genre
+  fullName: BookstoreProject.Models.Book.Genre
 - uid: BookstoreProject.Models.Book.Author*
   commentId: Overload:BookstoreProject.Models.Book.Author
   name: Author

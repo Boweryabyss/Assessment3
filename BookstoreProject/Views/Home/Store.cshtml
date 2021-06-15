@@ -19,12 +19,7 @@
 
         <input type="submit" value="Sort" />
         }
-        <!--<label for="sort">sort by</label>
-    <select name="sort by" id="sort">
-        <option value="price-asc">High-low</option>
-        <option value="price-dsc">Low-high</option>
-    </select>
-    <input type="button" value="Sort" class="btn btn-primary"/> -->
+        
     </div>
 
     <div><input type="button" value="Register Book" class="btn btn-default" onclick="location.href='@Url.Action("Create", "Books")'" /></div>
@@ -40,6 +35,7 @@
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.Genre)</p>
                         <p class="card-text">@Html.DisplayFor(modelItem => item.Author)</p>
                         <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
                         <p class="card-text">@Html.DisplayFor(modelItem => item.ReleaseDate)</p>

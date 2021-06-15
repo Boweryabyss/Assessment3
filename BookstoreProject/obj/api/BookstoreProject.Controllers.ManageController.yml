@@ -352,7 +352,7 @@ items:
   - BookstoreProject
   namespace: BookstoreProject.Controllers
   syntax:
-    content: public Task<ActionResult> Index(ManageController.ManageMessageId? message)
+    content: public async Task<ActionResult> Index(ManageController.ManageMessageId? message)
     parameters:
     - id: message
       type: System.Nullable{BookstoreProject.Controllers.ManageController.ManageMessageId}
@@ -363,6 +363,7 @@ items:
   nameWithType.vb: ManageController.Index(Nullable(Of ManageController.ManageMessageId))
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
   fullName.vb: BookstoreProject.Controllers.ManageController.Index(System.Nullable(Of BookstoreProject.Controllers.ManageController.ManageMessageId))
@@ -391,7 +392,7 @@ items:
 
       [ValidateAntiForgeryToken]
 
-      public Task<ActionResult> RemoveLogin(string loginProvider, string providerKey)
+      public async Task<ActionResult> RemoveLogin(string loginProvider, string providerKey)
     parameters:
     - id: loginProvider
       type: System.String
@@ -415,6 +416,7 @@ items:
     arguments: []
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
 - uid: BookstoreProject.Controllers.ManageController.AddPhoneNumber
@@ -469,7 +471,7 @@ items:
 
       [ValidateAntiForgeryToken]
 
-      public Task<ActionResult> AddPhoneNumber(AddPhoneNumberViewModel model)
+      public async Task<ActionResult> AddPhoneNumber(AddPhoneNumberViewModel model)
     parameters:
     - id: model
       type: BookstoreProject.Models.AddPhoneNumberViewModel
@@ -491,6 +493,7 @@ items:
     arguments: []
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
 - uid: BookstoreProject.Controllers.ManageController.EnableTwoFactorAuthentication
@@ -517,7 +520,7 @@ items:
 
       [ValidateAntiForgeryToken]
 
-      public Task<ActionResult> EnableTwoFactorAuthentication()
+      public async Task<ActionResult> EnableTwoFactorAuthentication()
     return:
       type: System.Threading.Tasks.Task{System.Web.Mvc.ActionResult}
     content.vb: >-
@@ -536,6 +539,7 @@ items:
     arguments: []
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
 - uid: BookstoreProject.Controllers.ManageController.DisableTwoFactorAuthentication
@@ -562,7 +566,7 @@ items:
 
       [ValidateAntiForgeryToken]
 
-      public Task<ActionResult> DisableTwoFactorAuthentication()
+      public async Task<ActionResult> DisableTwoFactorAuthentication()
     return:
       type: System.Threading.Tasks.Task{System.Web.Mvc.ActionResult}
     content.vb: >-
@@ -581,6 +585,7 @@ items:
     arguments: []
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
 - uid: BookstoreProject.Controllers.ManageController.VerifyPhoneNumber(System.String)
@@ -602,7 +607,7 @@ items:
   - BookstoreProject
   namespace: BookstoreProject.Controllers
   syntax:
-    content: public Task<ActionResult> VerifyPhoneNumber(string phoneNumber)
+    content: public async Task<ActionResult> VerifyPhoneNumber(string phoneNumber)
     parameters:
     - id: phoneNumber
       type: System.String
@@ -612,6 +617,7 @@ items:
   overload: BookstoreProject.Controllers.ManageController.VerifyPhoneNumber*
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
 - uid: BookstoreProject.Controllers.ManageController.VerifyPhoneNumber(BookstoreProject.Models.VerifyPhoneNumberViewModel)
@@ -638,7 +644,7 @@ items:
 
       [ValidateAntiForgeryToken]
 
-      public Task<ActionResult> VerifyPhoneNumber(VerifyPhoneNumberViewModel model)
+      public async Task<ActionResult> VerifyPhoneNumber(VerifyPhoneNumberViewModel model)
     parameters:
     - id: model
       type: BookstoreProject.Models.VerifyPhoneNumberViewModel
@@ -660,6 +666,7 @@ items:
     arguments: []
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
 - uid: BookstoreProject.Controllers.ManageController.RemovePhoneNumber
@@ -686,7 +693,7 @@ items:
 
       [ValidateAntiForgeryToken]
 
-      public Task<ActionResult> RemovePhoneNumber()
+      public async Task<ActionResult> RemovePhoneNumber()
     return:
       type: System.Threading.Tasks.Task{System.Web.Mvc.ActionResult}
     content.vb: >-
@@ -705,6 +712,7 @@ items:
     arguments: []
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
 - uid: BookstoreProject.Controllers.ManageController.ChangePassword
@@ -759,7 +767,7 @@ items:
 
       [ValidateAntiForgeryToken]
 
-      public Task<ActionResult> ChangePassword(ChangePasswordViewModel model)
+      public async Task<ActionResult> ChangePassword(ChangePasswordViewModel model)
     parameters:
     - id: model
       type: BookstoreProject.Models.ChangePasswordViewModel
@@ -781,6 +789,7 @@ items:
     arguments: []
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
 - uid: BookstoreProject.Controllers.ManageController.SetPassword
@@ -835,7 +844,7 @@ items:
 
       [ValidateAntiForgeryToken]
 
-      public Task<ActionResult> SetPassword(SetPasswordViewModel model)
+      public async Task<ActionResult> SetPassword(SetPasswordViewModel model)
     parameters:
     - id: model
       type: BookstoreProject.Models.SetPasswordViewModel
@@ -857,6 +866,7 @@ items:
     arguments: []
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
 - uid: BookstoreProject.Controllers.ManageController.ManageLogins(System.Nullable{BookstoreProject.Controllers.ManageController.ManageMessageId})
@@ -878,7 +888,7 @@ items:
   - BookstoreProject
   namespace: BookstoreProject.Controllers
   syntax:
-    content: public Task<ActionResult> ManageLogins(ManageController.ManageMessageId? message)
+    content: public async Task<ActionResult> ManageLogins(ManageController.ManageMessageId? message)
     parameters:
     - id: message
       type: System.Nullable{BookstoreProject.Controllers.ManageController.ManageMessageId}
@@ -889,6 +899,7 @@ items:
   nameWithType.vb: ManageController.ManageLogins(Nullable(Of ManageController.ManageMessageId))
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
   fullName.vb: BookstoreProject.Controllers.ManageController.ManageLogins(System.Nullable(Of BookstoreProject.Controllers.ManageController.ManageMessageId))
@@ -960,13 +971,14 @@ items:
   - BookstoreProject
   namespace: BookstoreProject.Controllers
   syntax:
-    content: public Task<ActionResult> LinkLoginCallback()
+    content: public async Task<ActionResult> LinkLoginCallback()
     return:
       type: System.Threading.Tasks.Task{System.Web.Mvc.ActionResult}
     content.vb: Public Function LinkLoginCallback As Task(Of ActionResult)
   overload: BookstoreProject.Controllers.ManageController.LinkLoginCallback*
   modifiers.csharp:
   - public
+  - async
   modifiers.vb:
   - Public
 - uid: BookstoreProject.Controllers.ManageController.Dispose(System.Boolean)

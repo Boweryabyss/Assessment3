@@ -16,7 +16,7 @@ items:
   source:
     id: BookDBContext
     path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
-    startLine: 35
+    startLine: 38
   assemblies:
   - BookstoreProject
   namespace: BookstoreProject.Models
@@ -79,7 +79,7 @@ items:
   source:
     id: Books
     path: D:\Diploma of Software Development\Cloud Computing\Assessment Documentation\Assessment 3\Program\BookstoreProject\Models\Book.cs
-    startLine: 38
+    startLine: 41
   assemblies:
   - BookstoreProject
   namespace: BookstoreProject.Models

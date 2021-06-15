@@ -1,0 +1,158 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="BookstoreProject.html" name="" title="BookstoreProject">BookstoreProject</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="BookstoreProject.ApplicationSignInManager.html" name="" title="ApplicationSignInManager">ApplicationSignInManager</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.ApplicationUserManager.html" name="" title="ApplicationUserManager">ApplicationUserManager</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.BundleConfig.html" name="" title="BundleConfig">BundleConfig</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.EmailService.html" name="" title="EmailService">EmailService</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.FilterConfig.html" name="" title="FilterConfig">FilterConfig</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.MvcApplication.html" name="" title="MvcApplication">MvcApplication</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.RouteConfig.html" name="" title="RouteConfig">RouteConfig</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.SmsService.html" name="" title="SmsService">SmsService</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Startup.html" name="" title="Startup">Startup</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="BookstoreProject.Controllers.html" name="" title="BookstoreProject.Controllers">BookstoreProject.Controllers</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="BookstoreProject.Controllers.AccountController.html" name="" title="AccountController">AccountController</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Controllers.BooksController.html" name="" title="BooksController">BooksController</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Controllers.HomeController.html" name="" title="HomeController">HomeController</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Controllers.ManageController.html" name="" title="ManageController">ManageController</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Controllers.ManageController.ManageMessageId.html" name="" title="ManageController.ManageMessageId">ManageController.ManageMessageId</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="BookstoreProject.Migrations.html" name="" title="BookstoreProject.Migrations">BookstoreProject.Migrations</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="BookstoreProject.Migrations.bookproperties.html" name="" title="bookproperties">bookproperties</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Migrations.GenreColumn.html" name="" title="GenreColumn">GenreColumn</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="BookstoreProject.Models.html" name="" title="BookstoreProject.Models">BookstoreProject.Models</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="BookstoreProject.Models.AddPhoneNumberViewModel.html" name="" title="AddPhoneNumberViewModel">AddPhoneNumberViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.ApplicationDbContext.html" name="" title="ApplicationDbContext">ApplicationDbContext</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.ApplicationUser.html" name="" title="ApplicationUser">ApplicationUser</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.Book.html" name="" title="Book">Book</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.BookDBContext.html" name="" title="BookDBContext">BookDBContext</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.ChangePasswordViewModel.html" name="" title="ChangePasswordViewModel">ChangePasswordViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.ConfigureTwoFactorViewModel.html" name="" title="ConfigureTwoFactorViewModel">ConfigureTwoFactorViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.ExternalLoginConfirmationViewModel.html" name="" title="ExternalLoginConfirmationViewModel">ExternalLoginConfirmationViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.ExternalLoginListViewModel.html" name="" title="ExternalLoginListViewModel">ExternalLoginListViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.FactorViewModel.html" name="" title="FactorViewModel">FactorViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.ForgotPasswordViewModel.html" name="" title="ForgotPasswordViewModel">ForgotPasswordViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.ForgotViewModel.html" name="" title="ForgotViewModel">ForgotViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.IndexViewModel.html" name="" title="IndexViewModel">IndexViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.LoginViewModel.html" name="" title="LoginViewModel">LoginViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.ManageLoginsViewModel.html" name="" title="ManageLoginsViewModel">ManageLoginsViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.RegisterViewModel.html" name="" title="RegisterViewModel">RegisterViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.ResetPasswordViewModel.html" name="" title="ResetPasswordViewModel">ResetPasswordViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.SendCodeViewModel.html" name="" title="SendCodeViewModel">SendCodeViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.SetPasswordViewModel.html" name="" title="SetPasswordViewModel">SetPasswordViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.VerifyCodeViewModel.html" name="" title="VerifyCodeViewModel">VerifyCodeViewModel</a>
+                          </li>
+                          <li>
+                              <a href="BookstoreProject.Models.VerifyPhoneNumberViewModel.html" name="" title="VerifyPhoneNumberViewModel">VerifyPhoneNumberViewModel</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

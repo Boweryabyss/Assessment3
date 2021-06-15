@@ -20,7 +20,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "rDaZ9rfTTpUtDVkrJ4I9wUPqYTUt5D587U6QUnYQAeo="
+          "hash": "K2YbPQJ17nMpBV2Df/+96uD5box3lR1QxM1Vjljhaiw="
         }
       },
       "is_incremental": true,
@@ -32,7 +32,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "ZWwrQTxwiw4whBucNmeG7Q60lSVebaDeNrSBsQkcfzY="
+          "hash": "BBU1uIQMUwpOSGApPARE6wPFAQWvbN7M0F3IkGqjHYg="
         }
       },
       "is_incremental": true,
@@ -56,7 +56,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "p7a3H1Ys65paW7aRXNKMwpbCe0anDl9usCKztHbVxdc="
+          "hash": "yrT8IQRJU9MAypGgEaIxTyFmj7jafiYnQZLKLD4TdYs="
         }
       },
       "is_incremental": true,
@@ -68,7 +68,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.ApplicationSignInManager.html",
-          "hash": "JSZkh8ctMxg19rpZpX+YSFUVdYDb3GOYE/lY5XKfm4M="
+          "hash": "URN1DwVQBz2ZulfqgXgW/08+7ibbRa7faRdC3cslbN0="
         }
       },
       "is_incremental": true,
@@ -80,7 +80,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.ApplicationUserManager.html",
-          "hash": "eOGJitVr7h3CDrMrNf6SZK5ZZ2eq4+A74ht1Ta3bF/I="
+          "hash": "VAb3nxdFLOwV18UOzQDOZ4goCGEZSvecssM7gw9dxWg="
         }
       },
       "is_incremental": true,
@@ -92,7 +92,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.BundleConfig.html",
-          "hash": "y7v2l/tMbFQVvUNRLz/TSjBa2hjVcSLwGJRp58in+5k="
+          "hash": "kDo9jSJPGJYzJmsKhvCaHpEXYJOdl3krPNf4nhz/WSU="
         }
       },
       "is_incremental": true,
@@ -104,7 +104,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Controllers.AccountController.html",
-          "hash": "s4emAYbtz2t2mHR+OFKsKqWXbUax3et5UdW+pwrqslc="
+          "hash": "8PcIcnH80lTMQXu+UeHF8+gcgkJKb9cKXF58A+Vdcs0="
         }
       },
       "is_incremental": true,
@@ -116,7 +116,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Controllers.BooksController.html",
-          "hash": "QFdq/jOPhfiIvXILjvNKkvWdWkfqDDJ6zaHzyhw5m+g="
+          "hash": "aFLn04rkW3V3WbIekAD4Ak8DR+V+R1Xh3reSX+Py8IU="
         }
       },
       "is_incremental": true,
@@ -128,7 +128,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Controllers.HomeController.html",
-          "hash": "pZSmXqHZx+dgIZUBCQZqglfoCoQsBT0r24wT8OGSvRk="
+          "hash": "uUuXXbQsJiApiU/oKFA84AKenZbuS3FFpUZc8lzr5J4="
         }
       },
       "is_incremental": true,
@@ -140,7 +140,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Controllers.ManageController.ManageMessageId.html",
-          "hash": "eFxjwDsxao5T+mFO7lvwbgManQEzi2NndbuggoHw5+E="
+          "hash": "Bul9spBq9DptyiXZhD+quOoONNow8o0aQC+DQ3o+z7c="
         }
       },
       "is_incremental": true,
@@ -152,7 +152,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Controllers.ManageController.html",
-          "hash": "oOnkhTncy6eHVUs2yRKpMFoeK6DXsIUi2ziNkB3ngvM="
+          "hash": "LcNepW6Kk+PtVB4B5Isdoce9JWzIA0E+OkTJ9/Kuk8g="
         }
       },
       "is_incremental": true,
@@ -164,7 +164,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Controllers.html",
-          "hash": "pfYRn31sGqMmAQQsAHNkJ+xVPZO2+PWX6HFvOAYV+ig="
+          "hash": "5cq4gdXseordkHesAeDa1AEOZMnh9f9ZLdOCshhgj1s="
         }
       },
       "is_incremental": true,
@@ -176,7 +176,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.EmailService.html",
-          "hash": "OWkI+DHY9qW7jIzwxM7jkRRh5PfPI7DR9fYrN9EJSCA="
+          "hash": "TAEjMVpJmdFl15ZkcrNZiw18AwJC5YInAcOqkiFoKq4="
         }
       },
       "is_incremental": true,
@@ -188,7 +188,19 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.FilterConfig.html",
-          "hash": "X8pvJrwCzBOMCgEsLK1vRrNmiJKLHuQtTtsSD0yoZ+8="
+          "hash": "odwSBuPSSnxHJwfo/exJ7NXZBL4CrPUJ83LMaHUDTyo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/BookstoreProject.Migrations.GenreColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookstoreProject.Migrations.GenreColumn.html",
+          "hash": "oCF+lZuLPa9OjuG17hMxj5Ce0QCAIMaB3RgaQBgCGvk="
         }
       },
       "is_incremental": true,
@@ -200,7 +212,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Migrations.bookproperties.html",
-          "hash": "ZAE1tP2SwYaL4zmktC5y0BF4xQq3AP4mxaX4P0Q0PQ0="
+          "hash": "RnNdro4pmYfa1FtDyAbtdaov4B/R4cpWrOc6tohFYgo="
         }
       },
       "is_incremental": true,
@@ -212,7 +224,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Migrations.html",
-          "hash": "zDxHWQbxoIxvG3otGYPzDi1JUMkRGSpcRQ0ofiTmDzc="
+          "hash": "liEUz19GqAzMN4/8+A6O+lvnJovbJlWcEefLNkSlen0="
         }
       },
       "is_incremental": true,
@@ -224,7 +236,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.AddPhoneNumberViewModel.html",
-          "hash": "H8Xz6VsiZw9fiisYqnXvfAn5Y1+m+66AiLG6gumsUq0="
+          "hash": "X2R2r+qsvW9k8M0fg1UJ7sJgNRIaA/b66ZUj8iNV5So="
         }
       },
       "is_incremental": true,
@@ -236,7 +248,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.ApplicationDbContext.html",
-          "hash": "ql8k6l+T9UnOI5UvcRR6MGVIIG4UXACOXUKaMhTCvOw="
+          "hash": "dS4JdIS0N7pt5u87B/fyImAfvfkX0ula0mDzQUTra7Y="
         }
       },
       "is_incremental": true,
@@ -248,7 +260,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.ApplicationUser.html",
-          "hash": "7PaokwcieJ1vg4ZLNS4FM5Z6h2Q7HrdijeSdmE/XMOs="
+          "hash": "zVRcow1750CRmhxVIANR7m4EoV767xy/SbaUsKWnc5c="
         }
       },
       "is_incremental": true,
@@ -260,7 +272,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.Book.html",
-          "hash": "qGZwGaugk4QNl5KrIwcekMBpmLzFVIjZ+TI8KKQ/anA="
+          "hash": "xqg3ODG7jmM/Fynzml3uqLlpj25pVT9dEUhGc+GcGPY="
         }
       },
       "is_incremental": true,
@@ -272,7 +284,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.BookDBContext.html",
-          "hash": "R6+fuGm8Eh/xdrL7rmfJ3DRr2DG3FLNGLEhiPRECi58="
+          "hash": "L7h5/sd3/ngiz1I7PU1NZwm73fVT7KRN9msKmMeWo88="
         }
       },
       "is_incremental": true,
@@ -284,7 +296,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.ChangePasswordViewModel.html",
-          "hash": "acIrOX12ZjEtx5rV5AS3A77NcSH9uN5ky+H7OeJewLU="
+          "hash": "R7tb0gTVI9+lC6xP2pVb9iQRWVChZroP0ziBTVxtTZk="
         }
       },
       "is_incremental": true,
@@ -296,7 +308,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.ConfigureTwoFactorViewModel.html",
-          "hash": "L+z1VKpzfXRObh3k9ctpptM7+guLc8xGXWy79Su3Xn8="
+          "hash": "QscPIe/p2ip1JFiwrg/BTMDJYonmz/Xr9naq2hkkX+U="
         }
       },
       "is_incremental": true,
@@ -308,7 +320,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.ExternalLoginConfirmationViewModel.html",
-          "hash": "8+tTq3yLR5Zgrnxf0X1W+F1j0qTybKupx/SHvl8Zh3M="
+          "hash": "9TU8Qhi1/ozeUD4PSQWQDIq3VrGKwlR6AsAhqGmFSYA="
         }
       },
       "is_incremental": true,
@@ -320,7 +332,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.ExternalLoginListViewModel.html",
-          "hash": "kwIiEIT1ykfkEfdWb2e/d40ocdVo0VTD09TvbQU7ls4="
+          "hash": "/m9ntti6skk0kcXwZecqSM/CBadP7xlIZiVqK2zNb/4="
         }
       },
       "is_incremental": true,
@@ -332,7 +344,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.FactorViewModel.html",
-          "hash": "z/fd/MVNy2998w0uKTWjU81sEzyZYtq7+chw07/lA94="
+          "hash": "HQufFlM3Rn04CtHfSkdvWU3TRooB3EFAsc89/TGaXOQ="
         }
       },
       "is_incremental": true,
@@ -344,7 +356,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.ForgotPasswordViewModel.html",
-          "hash": "276EC8oLt2g9kZ4XiTQKswYRpD16ZMq7Q5jJ3b8pw0o="
+          "hash": "3Df5BcQnfV6lp2zPy8UMsnV3d8lSXNLJRoA6NwGpQnc="
         }
       },
       "is_incremental": true,
@@ -356,7 +368,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.ForgotViewModel.html",
-          "hash": "rgTGdTELS4ZZR/Hek7P2DHHQ+h2iicRMdesgkfl0320="
+          "hash": "9/k7v5/uIHM2DHW1dof4e1N+0xX7OiroLlNiMxGJNy4="
         }
       },
       "is_incremental": true,
@@ -368,7 +380,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.IndexViewModel.html",
-          "hash": "6TxRWssVVxt0cUvV9vtyvhcfFLOxuUH/ZntaCdJ+imo="
+          "hash": "o/UdgBLbHjphbBb234IYZMso0l4oOwsp4y0dw1q/cw0="
         }
       },
       "is_incremental": true,
@@ -380,7 +392,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.LoginViewModel.html",
-          "hash": "w8NKm5V38N7D4E4Fu4cnPVJ4LuOyq1mBE1zUExqI7Ko="
+          "hash": "kH4rt3b/d66VVQienZs6Ftrnayu/yPA1Vok3o0GhU4k="
         }
       },
       "is_incremental": true,
@@ -392,7 +404,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.ManageLoginsViewModel.html",
-          "hash": "ulV5aG933PhYbOiVwS5giXZNxG2MWLnhFdA3nGEqIo4="
+          "hash": "NMkzymN+uaB5Fvir/gvkFkgNpYYzg1+LUze79olUbMY="
         }
       },
       "is_incremental": true,
@@ -404,7 +416,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.RegisterViewModel.html",
-          "hash": "F9M+5PWS2D4iP8Urw2n+e+AhlDH+V/l4qrW00vo8pGY="
+          "hash": "79JQFWyTNpOSEc32A4+4WyoLb0gjJr04jDLR49+JB8c="
         }
       },
       "is_incremental": true,
@@ -416,7 +428,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.ResetPasswordViewModel.html",
-          "hash": "so5i9es1+58YeIUaHksmG3ARyPNp3IuBHkNNCDy9L/Q="
+          "hash": "eID/Ilwy1D/r9rUn1woo+nolEdCf2MEux9rvpKAFDCY="
         }
       },
       "is_incremental": true,
@@ -428,7 +440,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.SendCodeViewModel.html",
-          "hash": "R6sA7aaQOMIdd28LkviPT8S4MWdIRY2KsCnlSdfDmu8="
+          "hash": "L9hiHdwatkxsvJ6I9QcmGHBhJ+ToEojRWAJv495NmOA="
         }
       },
       "is_incremental": true,
@@ -440,7 +452,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.SetPasswordViewModel.html",
-          "hash": "ZI8rJWwdblR9VRjjZAuiH2MgEiSKEcsQlfN+0wLK6T8="
+          "hash": "jSi9OEdSVPzQkF6X2vs1KPcxifztNl9GzyviJ/e/ZDk="
         }
       },
       "is_incremental": true,
@@ -452,7 +464,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.VerifyCodeViewModel.html",
-          "hash": "sm2wMsSJqR7IT2q6JORoWvWIb3AF7oklnvRlcfjRuM0="
+          "hash": "rVO0cv5Uae4S48sOH16DFenOfpQzYn3oJHkkKhThVug="
         }
       },
       "is_incremental": true,
@@ -464,7 +476,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.VerifyPhoneNumberViewModel.html",
-          "hash": "3IxQG1D7nkdWdHr2CmiCnmhP0wJq+1GeFIi9WdECK1w="
+          "hash": "SL0V0b1PcwtgL6QT1Z6JjBa7VHjC/enuf2aRgk0+1P8="
         }
       },
       "is_incremental": true,
@@ -476,7 +488,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Models.html",
-          "hash": "apUz/eUiVp09E4ShF/EG34k3uSuPMI0IRnIAU9Ar1kg="
+          "hash": "0re22jWPUQxwoNqBayvqA7sD9mi1ZrASmu5Ea8dwik0="
         }
       },
       "is_incremental": true,
@@ -488,7 +500,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.MvcApplication.html",
-          "hash": "+cduvsgCBjKEtY9hjZxXAhv2rde8RBbfQQ4fqOCSowE="
+          "hash": "IM/UrUyUXFdcRCWdynIe2u1DmaM47pQwlK0e39eSidI="
         }
       },
       "is_incremental": true,
@@ -500,7 +512,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.RouteConfig.html",
-          "hash": "bIIYLKOU6yuFtrC5I9X+VdN2kE8FFWx14UpPDH0uzsI="
+          "hash": "GoFJNtKc3qsqu2pJngn1qaK1yqwi/6lNAIVi6+KAnCc="
         }
       },
       "is_incremental": true,
@@ -512,7 +524,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.SmsService.html",
-          "hash": "vkEUnfRyhSYil1iotNBI7AqjN3+3xpdeTc1yO3OoTdI="
+          "hash": "qzmT3m9WJgGwYpaX/4+M7Fp1fVjDt2sLGRwyW0BQJ4s="
         }
       },
       "is_incremental": true,
@@ -524,7 +536,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.Startup.html",
-          "hash": "YkVTFQ7UHKMaYW9MrMpbFEU+SkrST/uYf3cfyrQbATU="
+          "hash": "OYN0LixRH4ZsxlhBqMYQjbkz5UCWj3fbd8PpZdxpBAc="
         }
       },
       "is_incremental": true,
@@ -536,7 +548,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BookstoreProject.html",
-          "hash": "a9ihFoRIvE2MKW5VgEKtucdhuXB990Zvmxt+nyuHjxo="
+          "hash": "0IkpO4Dw3zmyodR4t6GSUIp2Pg8MbJ/2qfJ1XwXpx0s="
         }
       },
       "is_incremental": true,
@@ -548,7 +560,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "1ZJ5mba1FAx6cgFpEaILAzKzZ7bFQMvgt8IBl8LzCEo="
+          "hash": "nn0nftEm9MHIKKn+CWESVnXW6nvhwM3K4jwcn31ybKg="
         }
       },
       "is_incremental": false,
@@ -585,8 +597,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 40,
-          "skipped_file_count": 40
+          "total_file_count": 41,
+          "skipped_file_count": 41
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
